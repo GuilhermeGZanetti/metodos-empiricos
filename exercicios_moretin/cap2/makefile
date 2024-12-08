@@ -8,4 +8,4 @@ compila:
 executa: 
 	python main.py > arquivosaida
 clear: 
-	rm -r arquivosaida guilherme_venv
+	rm -r arquivosaida guilherme_venv fig2.2.png fig2.4.png fig2.20.png
