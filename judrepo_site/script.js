@@ -1,39 +1,44 @@
-let processosData = []; // Store all data for filtering
+// Function to load and filter data
+function loadFilteredData(tipo) {
+  fetch("processos.json")
+    .then(response => response.json())
+    .then(data => {
+      // Filter the data by 'Tipo'
+      const filteredData = data.filter(row => row.Tipo === tipo);
 
-// Load CSV and initialize table
-Papa.parse("processos.csv", {
-  download: true,
-  header: true,
-  complete: function(results) {
-    processosData = results.data;
-    renderTable(processosData);
-  }
-});
+      // Render the filtered data
+      renderTable(filteredData);
+    })
+    .catch(error => console.error("Erro ao carregar os dados:", error));
+}
 
-// Render table rows
+// Function to render the table
 function renderTable(data) {
-  const tbody = document.querySelector("#processos-table tbody");
-  tbody.innerHTML = ""; // Clear existing rows
+  const tbody = document.getElementById("processos-tbody");
+  const loadingMessage = document.getElementById("loading-message");
 
-  data.forEach(row => {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td><a href="${row.Link}" target="_blank">${row.Link}</a></td>
-      <td>${row.Data}</td>
-      <td>${row.Comarca}</td>
-      <td>${row.Vara}</td>
-      <td>${row.Juiz}</td>
-      <td>${row.Réu}</td>
-      <td>${row.Tipo}</td>
-    `;
-    tbody.appendChild(tr);
-  });
+  // Show "Carregando..."
+  loadingMessage.style.display = "block";
+  tbody.innerHTML = ""; // Clear the table for fresh content
+
+  // Simulate a delay for loading (optional, for testing)
+  setTimeout(() => {
+    // Build the rows as a single HTML string
+    let rowsHTML = data.map(row => `
+      <tr>
+        <td><a href="${row.Link}" target="_blank">${row.Link.split("/").pop()}</a></td>
+        <td>${row.Data}</td>
+        <td>${row.Comarca}</td>
+        <td>${row.Vara}</td>
+        <td>${row.Juiz}</td>
+        <td>${row.Réu}</td>
+        <td>${row.Tipo}</td>
+      </tr>
+    `).join("");
+
+    // Update the table content and hide the loading message
+    tbody.innerHTML = rowsHTML;
+    loadingMessage.style.display = "none";
+  }, 100); // Optional delay
 }
 
-// Filter table by type
-function filterTable(type) {
-  const filteredData = type === "todos" 
-    ? processosData 
-    : processosData.filter(row => row.Tipo === type);
-  renderTable(filteredData);
-}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +7,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Processos Judiciais</h1>
-    <div class="filters">
-      <button onclick="filterTable('todos')">Todos</button>
-      <button onclick="filterTable('trafico')">Tráfico</button>
-      <button onclick="filterTable('furto_simples')">Furto Simples</button>
-      <button onclick="filterTable('furto_qualificado')">Furto Qualificado</button>
-      <button onclick="filterTable('roubo_simples')">Roubo Simples</button>
-      <button onclick="filterTable('roubo_qualificado')">Roubo Qualificado</button>
-    </div>
-    <table id="processos-table">
-      <thead>
-        <tr>
-          <th>Link</th>
-          <th>Data</th>
-          <th>Comarca</th>
-          <th>Vara</th>
-          <th>Juiz</th>
-          <th>Réu</th>
-          <th>Tipo</th>
-        </tr>
-      </thead>
-      <tbody id="processos-tbody">
-        <!-- Dados serão inseridos aqui -->
-      </tbody>
-    </table>
+  <h1>Bem-vindo ao Sistema de Processos Judiciais</h1>
+  <p>Selecione o tipo de crime para visualizar os processos correspondentes:</p>
+  
+  <div class="buttons">
+    <a href="trafico.html"><button>Tráfico</button></a>
+    <a href="furto_simples.html"><button>Furto Simples</button></a>
+    <a href="furto_qualificado.html"><button>Furto Qualificado</button></a>
+    <a href="roubo_simples.html"><button>Roubo Simples</button></a>
+    <a href="roubo_qualificado.html"><button>Roubo Qualificado</button></a>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-  <script src="script_json.js"></script>
 </body>
 </html>

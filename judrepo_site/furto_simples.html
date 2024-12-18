@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Processos - Tráfico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Processos Judiciais - Tráfico</h1>
+  
+  <!-- Buttons for navigation -->
+  <div class="buttons">
+    <a href="index.html"><button>Home</button></a>
+    <a href="trafico.html"><button>Tráfico</button></a>
+    <a href="furto_simples.html"><button>Furto Simples</button></a>
+    <a href="furto_qualificado.html"><button>Furto Qualificado</button></a>
+    <a href="roubo_simples.html"><button>Roubo Simples</button></a>
+    <a href="roubo_qualificado.html"><button>Roubo Qualificado</button></a>
+  </div>
+
+  <div id="loading-message" style="display: none; text-align: center; margin: 10px 0;">
+    <strong>Carregando...</strong>
+  </div>
+  <!-- Table for displaying data -->
+  <div id="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Link</th>
+          <th>Data</th>
+          <th>Comarca</th>
+          <th>Vara</th>
+          <th>Juiz</th>
+          <th>Réu</th>
+          <th>Tipo</th>
+        </tr>
+      </thead>
+      <tbody id="processos-tbody"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    loadFilteredData("furto_simples"); // Load only "trafico" data
+  </script>
+</body>
+</html>

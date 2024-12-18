@@ -1,52 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f9f9f9;
-  }
-  .container {
-    max-width: 1200px;
-    margin: auto;
-  }
-  h1 {
-    text-align: center;
-  }
-  .filters {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .filters button {
-    margin: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: auto;
-  }
-  thead {
-    background-color: #007BFF;
-    color: white;
-  }
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-  }
-  tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  tbody tr:hover {
-    background-color: #ddd;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
 /* Limitar largura da coluna "Link" */
-table th:first-child, 
-table td:first-child {
+table th,
+table td{
   max-width: 200px; /* Define uma largura máxima */
   word-wrap: break-word; /* Quebra o texto se for muito longo */
   text-overflow: ellipsis; /* Adiciona reticências se o texto for cortado */
   overflow: hidden; /* Esconde o excesso de texto */
   white-space: nowrap; /* Mantém o texto em uma única linha */
 }
+#loading-message {
+  color: #555;
+  font-size: 18px;
+  font-weight: bold;
+}
+

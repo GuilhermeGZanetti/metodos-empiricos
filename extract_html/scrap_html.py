@@ -9,6 +9,12 @@ def convert_to_utf8(input_file, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(content)
 
+def convert_to_windows1252(input_file, output_file):
+    with open(input_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    with open(output_file, 'w', encoding='windows-1252') as f:
+        f.write(content)
+
 def extract_table_data(html_file):
     with open(html_file, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f, 'html.parser')
@@ -72,6 +78,9 @@ with open(csv_file, encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         data.append(row)
+
+# Sort data by "Data"
+data.sort(key=lambda x: x["Data"])
 
 # Salve o arquivo JSON
 with open(json_file, "w", encoding="utf-8") as jsonfile:
