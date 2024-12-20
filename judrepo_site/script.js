@@ -4,6 +4,10 @@ function loadFilteredData(tipo) {
     .then(response => response.json())
     .then(data => {
       // Filter the data by 'Tipo'
+      if (tipo === "todos") {
+        renderTable(data);
+        return;
+      }
       const filteredData = data.filter(row => row.Tipo === tipo);
 
       // Render the filtered data
