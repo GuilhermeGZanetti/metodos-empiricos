@@ -1,0 +1,19 @@
+Foi realizada uma amostra manual de 3 exemplos cada de trafico, roubo_simples e roubo_qualificado, totalizando 9 exemplos. 
+Nesses casos, a sentença base, provisória e definitiva fora extraidas em dias.
+
+Os resultados obtidos após passar os dados pelo Stan para um modelo de distribuição normal foram os seguintes:
+Todos os crimes - Média estimada (mu): 2882.06, Desvio padrão estimado (sigma): 889.09
+Roubo_simples - Média estimada (mu): 1892.72, Desvio padrão estimado (sigma): 3267.31
+Roubo_qualificado - Média estimada (mu): 4718.63, Desvio padrão estimado (sigma): 7238.69
+Trafico - Média estimada (mu): 2806.12, Desvio padrão estimado (sigma): 2867.84
+
+Pode-se notar que, com a exceção de todos os crimes, que teve um número amostral mais relevante, todos os desvios padrões foram muito altos,
+em ordens de grandeza iguais à média. Isso indica que o Stan não foi capaz de gerar um bom modelo para os dados pela baixa quantidade de amostras.
+
+Comparando os resultados do relatório com os obtidos aqui, podemover ver que a média obtida do roubo qualificado (13 anos) foi muito superior a encontrada 
+no relatório para Roubo (4,57 anos). Um resultado semelhante foi alcançado com o tráfico de drogas: a média obtida de 7,69 anos foi superior a média real 
+da base de dados de 5,53 anos.
+
+Esses resultados indicam que o número de amostra igual a 3 é pequeno demais e precisaria ser aumentado, possívelmente para mais próximo dos 9 utilizados 
+para os crimes totais.
+

@@ -1,0 +1,113 @@
+[
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/1501105-24.2020.8.26.0361.pdf",
+    "Data": "01/01/2022",
+    "Comarca": "MOGI DAS CRUZES",
+    "Vara": "1a. VARA CRIMINAL",
+    "Juiz": "TATIANA SAES VALVERDE ORMELEZE",
+    "Réu": "N/A",
+    "Tipo": "roubo_simples",
+    "Pena Base": 1712,
+    "Pena Provisória": 1951,
+    "Pena Definitiva": 2702
+  },
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/0000912-58.2018.8.26.0101.pdf",
+    "Data": "01/02/2022",
+    "Comarca": "CAÇAPAVA",
+    "Vara": "VARA CRIMINAL",
+    "Juiz": "GUSTAVO DE CAMPOS MACHADO",
+    "Réu": "GABRIEL SANTOS FELICIANO",
+    "Tipo": "roubo_simples",
+    "Pena Base": 1470,
+    "Pena Provisória": 1958,
+    "Pena Definitiva": 1958
+  },
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/1500553-76.2019.8.26.0108.pdf",
+    "Data": "01/02/2022",
+    "Comarca": "CAJAMAR",
+    "Vara": "2a. VARA JUDICIAL",
+    "Juiz": "RICARDO VENTURINI BROSCO",
+    "Réu": "FERNANDO DE OLIVEIRA GUSMAO",
+    "Tipo": "roubo_simples",
+    "Pena Base": 1711,
+    "Pena Provisória": 1987,
+    "Pena Definitiva": 2446
+  },
+
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/1500565-51.2021.8.26.0066.pdf",
+    "Data": "01/02/2022",
+    "Comarca": "BARRETOS",
+    "Vara": "2a. VARA CRIMINAL",
+    "Juiz": "LUCIANO DE OLIVEIRA SILVA",
+    "Réu": "ELTON LUIS ARAÚJO E OUTRO",
+    "Tipo": "roubo_qualificado",
+    "Pena Base": 1958,
+    "Pena Provisória": 2270,
+    "Pena Definitiva": 3026
+  },
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/1502428-75.2021.8.26.0540.pdf",
+    "Data": "01/02/2022",
+    "Comarca": "SANTO ANDRÉ",
+    "Vara": "2a. VARA CRIMINAL",
+    "Juiz": "TERESA CRISTINA CABRAL SANTANA",
+    "Réu": "TARCIZIO RENAN DOS ANJOS SILVA",
+    "Tipo": "roubo_qualificado",
+    "Pena Base": 1470,
+    "Pena Provisória": 2446,
+    "Pena Definitiva": 2446
+  },
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/0000603-31.2021.8.26.0069.pdf",
+    "Data": "01/06/2022",
+    "Comarca": "BASTOS",
+    "Vara": "VARA ÚNICA",
+    "Juiz": "PAOLO PELLEGRINI JUNIOR",
+    "Réu": "PEDRO HENRIQUE DE SOUZA ROCHA",
+    "Tipo": "roubo_qualificado",
+    "Pena Base": 1470,
+    "Pena Provisória": 2205,
+    "Pena Definitiva": 4410
+  },
+
+
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/1501099-02.2021.8.26.0581.pdf",
+    "Data": "01/01/2022",
+    "Comarca": "SÃO MANUEL",
+    "Vara": "1aVARA",
+    "Juiz": "CERES DE OLIVEIRA DANCKWARDT",
+    "Réu": "N/A",
+    "Tipo": "trafico",
+    "Pena Base": 2325,
+    "Pena Provisória": 2325,
+    "Pena Definitiva": 2325
+  },
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/1507555-39.2020.8.26.0019.pdf",
+    "Data": "01/02/2022",
+    "Comarca": "AMERICANA",
+    "Vara": "1aVARA CRIMINAL",
+    "Juiz": "ANDRE CARLOS DE OLIVEIRA",
+    "Réu": "JOELMA PEREIRA VICENTE",
+    "Tipo": "trafico",
+    "Pena Base": 2790,
+    "Pena Provisória": 3255,
+    "Pena Definitiva": 3255
+  },
+  {
+    "Link": "http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/1523621-15.2021.8.26.0228.pdf",
+    "Data": "01/02/2022",
+    "Comarca": "SÃO PAULO",
+    "Vara": "12aVARA CRIMINAL",
+    "Juiz": "EVA LOBO CHAIB DIAS JORGE",
+    "Réu": "LUCIANO DA SILVA FERNANDES",
+    "Tipo": "trafico",
+    "Pena Base": 3144,
+    "Pena Provisória": 3210,
+    "Pena Definitiva": 3210
+  }
+]
