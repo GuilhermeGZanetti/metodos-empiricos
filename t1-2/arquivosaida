@@ -1,0 +1,13 @@
+Não consegui implementar a lógica do modelo com Stan após muita pesquisa, então realizei com Python convencional:
+1. Probabilidades da saudação de hoje:
+  'Hello, world!': 0.2800
+  'Howdy, universe!': 0.0800
+  'Oh no, not again': 0.6400
+
+2. Probabilidade de hoje estar ensolarado dado 'Hello, world!':
+  0.4286
+
+3. Probabilidades da saudação de amanhã após observar 'Hello, world!':
+  'Hello, world!': 0.3486
+  'Howdy, universe!': 0.1486
+  'Oh no, not again': 0.5029

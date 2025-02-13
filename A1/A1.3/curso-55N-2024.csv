@@ -1,0 +1,477 @@
+COTISTA; TIPO_COTA; MATR_ALUNO; COD_CURSO; ANO_EVASAO; PERIODO_EVASAO; FORMA_EVASAO; ANO_INGRESSO; DT_SAIDA; SEXO; PERIODO_INGRESSO; ETNIA; NUM_PERIODOS_VERSAO; NUM_PERIODO_ALUNO
+S; Baixa Renda e PPI; 2015105847; 55 N; 2018; 1º Semestre; Formado; 2015; 16/08/2018; M; 1º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2017101546; 55 N; 2017; 2º Semestre; Desistência; 2017; 10/01/2018; M; 1º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2017100087; 55 N; 2020; 1º Semestre; Formado; 2017; 27/01/2021; M; 1º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2017204810; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 05/03/2020; M; 2º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2020101695; 55 N; 2020; 1º Semestre; Desistência; 2020; 19/08/2020; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2019107410; 55 N; 2022; 2º Semestre; Formado; 2019; 14/04/2023; F; 1º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2024102114; 55 N; 2024; 1º Semestre; Desistência; 2024; 02/07/2024; M; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2012203179; 55 N; 2019; 1º Semestre; Formado; 2012; 13/09/2019; M; 2º Semestre; Branca; 8; 15
+S; Baixa Renda e PPI; 2018207228; 55 N; 2021; 1º Semestre; Formado; 2018; 10/11/2021; M; 2º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2021101877; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; M; 1º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2019202358; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; M; 2º Semestre; Branca; 8; 7
+S; Baixa Renda e Não PPI; 2020102039; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 1º Semestre; Branca; 8; 4
+N; Ampla concorrência; 2021100537; 55 N; 2023; 2º Semestre; Desistência; 2021; 02/10/2023; F; 1º Semestre; Branca; 8; 5
+N; Ampla concorrência; 2017205029; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 22/03/2022; F; 2º Semestre; Não Declarada; 8; 9
+N; Ampla concorrência; 2019202975; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; F; 2º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2020100917; 55 N; 2020; 1º Semestre; Desistência; 2020; 20/08/2020; F; 1º Semestre; Branca; 8; 1
+S; Renda Normal e PPI; 2020203851; 55 N; 2023; 1º Semestre; Desistência; 2020; 11/08/2023; F; 2º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2021200019; 55 N; 2023; 1º Semestre; Desistência; 2021; 11/08/2023; F; 2º Semestre; Parda; 8; 5
+S; Baixa Renda e Não PPI; 2017204404; 55 N; 2018; 2º Semestre; Desistência; 2017; 02/10/2018; M; 2º Semestre; Branca; 8; 3
+S; Baixa Renda e PPI; 2014100393; 55 N; 2021; 1º Semestre; Formado; 2014; 10/11/2021; F; 1º Semestre; Parda; 8; 16
+S; Renda Normal e Não PPI; 2021101542; 55 N; 2021; 2º Semestre; Desistência; 2021; 11/11/2021; F; 1º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2015100900; 55 N; 2019; 2º Semestre; Formado; 2015; 14/02/2020; F; 1º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2019109292; 55 N; 2019; 1º Semestre; Desistência; 2019; 26/07/2019; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2020101641; 55 N; 2020; 1º Semestre; Desistência; 2020; 03/09/2020; F; 1º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2017100077; 55 N; 2020; 1º Semestre; Formado; 2017; 27/01/2021; F; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2018103149; 55 N; 2023; 1º Semestre; Formado; 2018; 28/09/2023; F; 1º Semestre; Não Declarada; 8; 12
+S; Baixa Renda e Não PPI; 2019200696; 55 N; 2022; 2º Semestre; Desistência; 2019; 04/11/2022; F; 2º Semestre; Branca; 8; 6
+S; Renda Normal e PPI; 2015100912; 55 N; 2018; 2º Semestre; Formado; 2015; 14/03/2019; F; 1º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2016204507; 55 N; 2020; 2º Semestre; Formado; 2016; 09/07/2021; F; 2º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2019109978; 55 N; 2022; 1º Semestre; Desistência; 2019; 03/05/2022; M; 1º Semestre; Branca; 8; 6
+S; Renda Normal e PPI; 2019107331; 55 N; 2022; 2º Semestre; Formado; 2019; 14/04/2023; M; 1º Semestre; Parda; 8; 9
+S; Renda Normal e Não PPI; 2021100526; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; M; 1º Semestre; Branca; 8; 4
+N; Ampla concorrência; 2018102418; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 07/03/2023; M; 1º Semestre; Branca; 8; 11
+N; Ampla concorrência; 2019100204; 55 N; 2023; 2º Semestre; Formado; 2019; 01/03/2024; F; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2021200801; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; F; 2º Semestre; Branca; 8; 4
+S; Renda Normal e PPI; 2017100092; 55 N; 2019; 2º Semestre; Desistência; 2017; 19/11/2019; M; 1º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2016204847; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 05/03/2020; M; 2º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2013202298; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2013; 22/03/2022; M; 2º Semestre; Branca; 8; 15
+N; Ampla concorrência; 2011202961; 55 N; 2018; 1º Semestre; Formado; 2011; 16/08/2018; M; 2º Semestre; Parda; 8; 15
+N; Ampla concorrência; 2023100501; 55 N; 2023; 1º Semestre; Desistência; 2023; 31/03/2023; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2016204442; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 07/03/2023; M; 2º Semestre; Parda; 8; 12
+N; Ampla concorrência; 2017202884; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 05/03/2020; M; 2º Semestre; Parda; 8; 6
+S; Baixa Renda e PPI; 2017101557; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 07/03/2023; M; 1º Semestre; Parda; 8; 12
+N; Ampla concorrência; 2014202529; 55 N; 2019; 1º Semestre; Formado; 2014; 13/09/2019; M; 2º Semestre; Branca; 8; 11
+N; Ampla concorrência; 2018103000; 55 N; 2022; 1º Semestre; Formado; 2018; 29/09/2022; M; 1º Semestre; Parda; 8; 10
+S; Renda Normal e PPI; 2020203853; 55 N; 2022; 1º Semestre; Desistência; 2020; 07/07/2022; M; 2º Semestre; Parda; 8; 3
+N; Ampla concorrência; 2022100380; 55 N; 2022; 1º Semestre; Desistência; 2022; 08/07/2022; F; 1º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2019100174; 55 N; 2022; 2º Semestre; Formado; 2019; 14/04/2023; M; 1º Semestre; Preta; 8; 9
+S; Baixa Renda e PPI; 2017204408; 55 N; 2021; 2º Semestre; Formado; 2017; 28/04/2022; F; 2º Semestre; Parda; 8; 10
+S; Renda Normal e PPI; 2018206179; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 07/03/2023; F; 2º Semestre; Preta; 8; 10
+S; Baixa Renda e PPI; 2014202560; 55 N; 2020; 1º Semestre; Formado; 2014; 27/01/2021; F; 2º Semestre; Parda; 8; 13
+N; Ampla concorrência; 2018205459; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/02/2024; M; 2º Semestre; Preta; 8; 10
+N; Ampla concorrência; 2017100083; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 05/03/2020; M; 1º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2021201661; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; F; 2º Semestre; Branca; 8; 4
+N; Ampla concorrência; 2019201058; 55 N; 2024; 1º Semestre; Formado; 2019; 02/12/2024; F; 2º Semestre; Parda; 8; 11
+S; Baixa Renda e PPI; 2019201936; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; F; 2º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2022200519; 55 N; 2024; 1º Semestre; Desligamento; 2022; 08/11/2024; F; 2º Semestre; Preta; 8; 5
+N; Ampla concorrência; 2017202890; 55 N; 2019; 1º Semestre; Reopção de curso; 2017; 24/07/2019; M; 2º Semestre; Branca; 8; 3
+N; Ampla concorrência; 2014202530; 55 N; 2019; 2º Semestre; Formado; 2014; 14/02/2020; M; 2º Semestre; Branca; 8; 11
+N; Ampla concorrência; 2020101455; 55 N; 2020; 1º Semestre; Desistência; 2020; 19/08/2020; M; 1º Semestre; Branca; 8; 1
+S; Baixa Renda e PPI; 2014202562; 55 N; 2021; 1º Semestre; Desistência; 2014; 27/01/2021; M; 2º Semestre; Parda; 8; 11
+S; Baixa Renda e PPI; 2018206866; 55 N; 2022; 1º Semestre; Formado; 2018; 29/09/2022; M; 2º Semestre; Parda; 8; 9
+S; Renda Normal e PPI; 2021200292; 55 N; 2022; 2º Semestre; Desistência; 2021; 25/10/2022; M; 2º Semestre; Preta; 8; 3
+N; Ampla concorrência; 2017100076; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 22/02/2024; M; 1º Semestre; Parda; 8; 8
+S; Renda Normal e PPI; 2019200879; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; M; 2º Semestre; Preta; 8; 8
+N; Ampla concorrência; 2016100263; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; F; 1º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2023200465; 55 N; 2024; 1º Semestre; Desistência; 2023; 04/04/2024; F; 2º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2019200279; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; M; 2º Semestre; Branca; 8; 8
+S; Baixa Renda e Não PPI; 2021101865; 55 N; 2023; 1º Semestre; Desistência; 2021; 11/08/2023; F; 1º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2021200302; 55 N; 2021; 2º Semestre; Desistência; 2021; 21/12/2021; M; 2º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2019200002; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; M; 2º Semestre; Não Declarada; 8; 8
+N; Ampla concorrência; 2020203604; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 2º Semestre; Branca; 8; 5
+N; Ampla concorrência; 2017202883; 55 N; 2019; 1º Semestre; Reopção de curso; 2017; 24/07/2019; M; 2º Semestre; Parda; 8; 4
+S; Renda Normal e PPI; 2014100387; 55 N; 2017; 2º Semestre; Desistência; 2014; 10/01/2018; F; 1º Semestre; Parda; 8; 7
+S; Renda Normal e PPI; 2016100309; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; F; 1º Semestre; Preta; 8; 8
+N; Ampla concorrência; 2013202304; 55 N; 2018; 2º Semestre; Formado; 2013; 14/03/2019; F; 2º Semestre; Preta; 8; 12
+S; Baixa Renda e PPI; 2020102002; 55 N; 2023; 2º Semestre; Formado; 2020; 01/03/2024; M; 1º Semestre; Preta; 8; 6
+N; Ampla concorrência; 2019100181; 55 N; 2019; 2º Semestre; Desistência; 2019; 17/09/2019; F; 1º Semestre; Amarela; 8; 2
+S; Baixa Renda e PPI; 2013101018; 55 N; 2019; 1º Semestre; Formado; 2013; 13/09/2019; M; 1º Semestre; Preta; 8; 14
+S; Baixa Renda e PPI; 2020102303; 55 N; 2020; 1º Semestre; Desistência; 2020; 03/09/2020; M; 1º Semestre; Parda; 8; 1
+S; Baixa Renda e PPI; 2019108729; 55 N; 2019; 1º Semestre; Desistência; 2019; 20/03/2019; F; 1º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2022200036; 55 N; 2024; 1º Semestre; Desistência; 2022; 10/04/2024; F; 2º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2016204487; 55 N; 2020; 2º Semestre; Desistência; 2016; 24/02/2021; F; 2º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2019107481; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; M; 1º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2019100219; 55 N; 2019; 2º Semestre; Desistência; 2019; 19/11/2019; F; 1º Semestre; Não Declarada; 8; 2
+S; Baixa Renda e Não PPI; 2021101597; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 07/03/2023; M; 1º Semestre; Preta; 8; 5
+S; Baixa Renda e PPI; 2016100315; 55 N; 2020; 1º Semestre; Formado; 2016; 27/01/2021; F; 1º Semestre; Preta; 8; 10
+S; Renda Normal e Não PPI; 2016100264; 55 N; 2020; 1º Semestre; Formado; 2016; 31/03/2021; F; 1º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2021100574; 55 N; 2021; 1º Semestre; Desistência; 2021; 26/10/2021; F; 1º Semestre; Preta; 8; 1
+N; Ampla concorrência; 2020205441; 55 N; 2021; 1º Semestre; Desistência; 2020; 16/06/2021; M; 2º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2017101398; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 22/02/2024; F; 1º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2021200018; 55 N; 2022; 1º Semestre; Desistência; 2021; 06/04/2022; F; 2º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2016100255; 55 N; 2018; 1º Semestre; Formado; 2016; 26/07/2018; F; 1º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2017204854; 55 N; 2020; 2º Semestre; Desistência; 2017; 04/02/2021; F; 2º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2019107318; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; M; 1º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2017204844; 55 N; 2020; 1º Semestre; Formado; 2017; 27/01/2021; F; 2º Semestre; Branca; 8; 7
+S; Baixa Renda e PPI; 2015105835; 55 N; 2018; 2º Semestre; Formado; 2015; 14/03/2019; F; 1º Semestre; Preta; 8; 9
+S; Baixa Renda e PPI; 2019201978; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; F; 2º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2021101873; 55 N; 2021; 1º Semestre; Desistência; 2021; 29/10/2021; F; 1º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2021101876; 55 N; 2023; 2º Semestre; Desistência; 2021; 30/08/2023; F; 1º Semestre; Branca; 8; 5
+N; Ampla concorrência; 2022100378; 55 N; 2022; 1º Semestre; Desistência; 2022; 06/09/2022; M; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2020102253; 55 N; 2023; 2º Semestre; Formado; 2020; 01/03/2024; M; 1º Semestre; Não Declarada; 8; 6
+N; Ampla concorrência; 2016204490; 55 N; 2019; 1º Semestre; Formado; 2016; 13/09/2019; F; 2º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2017205034; 55 N; 2018; 1º Semestre; Desistência; 2017; 04/04/2018; M; 2º Semestre; Parda; 8; 2
+S; Renda Normal e Não PPI; 2018206496; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/02/2024; M; 2º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2023201627; 55 N; 2024; 1º Semestre; Desligamento; 2023; 23/04/2024; M; 2º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2020102659; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 1º Semestre; Parda; 8; 6
+S; Baixa Renda e PPI; 2019108668; 55 N; 2024; 1º Semestre; Desligamento; 2019; 08/11/2024; F; 1º Semestre; Preta; 8; 11
+N; Ampla concorrência; 2016100253; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 22/02/2024; M; 1º Semestre; Branca; 8; 12
+S; Baixa Renda e PPI; 2019109955; 55 N; 2022; 1º Semestre; Formado; 2019; 29/09/2022; M; 1º Semestre; Parda; 8; 8
+S; Baixa Renda e Não PPI; 2018206892; 55 N; 2019; 1º Semestre; Reopção de curso; 2018; 24/07/2019; F; 2º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2020102275; 55 N; 2023; 2º Semestre; Formado; 2020; 01/03/2024; M; 1º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2023200463; 55 N; 2023; 2º Semestre; Desistência; 2023; 21/09/2023; M; 2º Semestre; Preta; 8; 1
+N; Ampla concorrência; 2019200280; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; M; 2º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2015100902; 55 N; 2018; 2º Semestre; Formado; 2015; 14/03/2019; F; 1º Semestre; Parda; 8; 9
+S; Renda Normal e PPI; 2019109380; 55 N; 2024; 1º Semestre; Formado; 2019; 02/12/2024; M; 1º Semestre; Parda; 8; 12
+N; Ampla concorrência; 2019200975; 55 N; 2022; 2º Semestre; Desistência; 2019; 13/12/2022; M; 2º Semestre; Preta; 8; 6
+N; Ampla concorrência; 2024102112; 55 N; 2024; 1º Semestre; Desistência; 2024; 21/05/2024; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2020102241; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; F; 1º Semestre; Parda; 8; 5
+S; Baixa Renda e Não PPI; 2015100907; 55 N; 2018; 2º Semestre; Formado; 2015; 14/03/2019; F; 1º Semestre; Parda; 8; 9
+S; Renda Normal e Não PPI; 2022101064; 55 N; 2022; 1º Semestre; Desistência; 2022; 25/08/2022; F; 1º Semestre; Branca; 8; 1
+S; Renda Normal e PPI; 2016100307; 55 N; 2020; 1º Semestre; Formado; 2016; 01/10/2020; M; 1º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2020204077; 55 N; 2020; 2º Semestre; Desistência; 2020; 10/02/2021; M; 2º Semestre; Branca; 8; 1
+S; Baixa Renda e Não PPI; 2019108874; 55 N; 2023; 1º Semestre; Formado; 2019; 28/09/2023; M; 1º Semestre; Branca; 8; 10
+S; Baixa Renda e Não PPI; 2018206161; 55 N; 2024; 1º Semestre; Formado; 2018; 22/08/2024; M; 2º Semestre; Branca; 8; 11
+S; Baixa Renda e PPI; 2021201535; 55 N; 2023; 1º Semestre; Desistência; 2021; 11/08/2023; F; 2º Semestre; Parda; 8; 5
+S; Renda Normal e PPI; 2018103477; 55 N; 2022; 2º Semestre; Formado; 2018; 14/04/2023; F; 1º Semestre; Parda; 8; 11
+N; Ampla concorrência; 2021200313; 55 N; 2021; 2º Semestre; Desistência; 2021; 13/12/2021; F; 2º Semestre; Preta; 8; 1
+N; Ampla concorrência; 2016100246; 55 N; 2021; 2º Semestre; Formado; 2016; 28/04/2022; F; 1º Semestre; Branca; 8; 13
+N; Ampla concorrência; 2016204457; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; F; 2º Semestre; Branca; 8; 7
+S; Renda Normal e Não PPI; 2019200297; 55 N; 2021; 2º Semestre; Desistência; 2019; 09/11/2021; M; 2º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2020100908; 55 N; 2020; 1º Semestre; Desistência; 2020; 20/08/2020; M; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2017204872; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 07/03/2023; M; 2º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2020204573; 55 N; 2020; 1º Semestre; Desistência; 2020; 20/08/2020; M; 2º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2019100158; 55 N; 2023; 1º Semestre; Formado; 2019; 28/09/2023; F; 1º Semestre; Parda; 8; 10
+S; Baixa Renda e Não PPI; 2022102499; 55 N; 2024; 1º Semestre; Desistência; 2022; 07/10/2024; F; 1º Semestre; Branca; 8; 5
+S; Renda Normal e Não PPI; 2014202548; 55 N; 2020; 1º Semestre; Formado; 2014; 27/01/2021; F; 2º Semestre; Parda; 8; 13
+S; Baixa Renda e Não PPI; 2016100277; 55 N; 2020; 2º Semestre; Formado; 2016; 09/07/2021; F; 1º Semestre; Branca; 8; 11
+N; Ampla concorrência; 2019202215; 55 N; 2023; 2º Semestre; Desistência; 2019; 22/09/2023; M; 2º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2021201454; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; M; 2º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2018206484; 55 N; 2022; 1º Semestre; Reopção de Curso; 2018; 06/09/2022; M; 2º Semestre; Parda; 8; 3
+S; Renda Normal e Não PPI; 2019200300; 55 N; 2024; 1º Semestre; Formado; 2019; 22/08/2024; M; 2º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2019107419; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; M; 1º Semestre; Preta; 8; 6
+S; Baixa Renda e PPI; 2020102119; 55 N; 2020; 2º Semestre; Desistência; 2020; 10/02/2021; M; 1º Semestre; Parda; 8; 2
+S; Baixa Renda e PPI; 2021102989; 55 N; 2021; 1º Semestre; Desistência; 2021; 06/07/2021; F; 1º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2018206487; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 07/03/2023; F; 2º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2011202960; 55 N; 2018; 2º Semestre; Formado; 2011; 14/03/2019; F; 2º Semestre; Parda; 8; 14
+S; Baixa Renda e Não PPI; 2017204405; 55 N; 2020; 2º Semestre; Formado; 2017; 09/07/2021; M; 2º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2017204827; 55 N; 2018; 2º Semestre; Desistência; 2017; 14/09/2018; F; 2º Semestre; Preta; 8; 3
+N; Ampla concorrência; 2017204999; 55 N; 2022; 1º Semestre; Formado; 2017; 29/09/2022; F; 2º Semestre; Parda; 8; 11
+S; Renda Normal e PPI; 2017202892; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 07/03/2023; M; 2º Semestre; Parda; 8; 10
+S; Renda Normal e Não PPI; 2023200114; 55 N; 2024; 1º Semestre; Desligamento; 2023; 18/03/2024; M; 2º Semestre; Branca; 8; 2
+S; Renda Normal e Não PPI; 2017204401; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 05/03/2020; M; 2º Semestre; Não Declarada; 8; 6
+N; Ampla concorrência; 2018102737; 55 N; 2024; 1º Semestre; Formado; 2018; 22/08/2024; F; 1º Semestre; Branca; 8; 13
+N; Ampla concorrência; 2020102203; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; M; 1º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2018102414; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/03/2022; F; 1º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2019107425; 55 N; 2023; 2º Semestre; Formado; 2019; 01/03/2024; F; 1º Semestre; Preta; 8; 8
+N; Ampla concorrência; 2019100193; 55 N; 2022; 2º Semestre; Formado; 2019; 14/04/2023; M; 1º Semestre; Parda; 8; 9
+S; Renda Normal e PPI; 2017101559; 55 N; 2020; 1º Semestre; Formado; 2017; 27/01/2021; M; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2021101525; 55 N; 2021; 1º Semestre; Desistência; 2021; 27/10/2021; M; 1º Semestre; Branca; 8; 1
+S; Renda Normal e PPI; 2019107751; 55 N; 2023; 1º Semestre; Desistência; 2019; 11/08/2023; F; 1º Semestre; Preta; 8; 10
+S; Baixa Renda e PPI; 2019202153; 55 N; 2022; 1º Semestre; Desistência; 2019; 12/04/2022; F; 2º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2022100383; 55 N; 2024; 1º Semestre; Desistência; 2022; 13/05/2024; M; 1º Semestre; Branca; 8; 5
+N; Ampla concorrência; 2019100225; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/03/2022; F; 1º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2019100201; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; M; 1º Semestre; Parda; 8; 7
+S; Baixa Renda e PPI; 2016203522; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 05/03/2020; M; 2º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2016100250; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; F; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2023201625; 55 N; 2024; 1º Semestre; Desistência; 2023; 25/03/2024; M; 2º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2020203609; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; M; 2º Semestre; Branca; 8; 5
+N; Ampla concorrência; 2018103105; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 05/03/2020; M; 1º Semestre; Preta; 8; 4
+S; Renda Normal e PPI; 2013100836; 55 N; 2020; 1º Semestre; Desistência; 2013; 21/10/2020; M; 1º Semestre; Parda; 8; 13
+S; Baixa Renda e PPI; 2020102272; 55 N; 2024; 1º Semestre; Formado; 2020; 22/08/2024; M; 1º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2019100170; 55 N; 2020; 1º Semestre; Desistência; 2019; 22/09/2020; F; 1º Semestre; Parda; 8; 2
+S; Renda Normal e PPI; 2014100385; 55 N; 2019; 2º Semestre; Formado; 2014; 14/02/2020; F; 1º Semestre; Preta; 8; 12
+N; Ampla concorrência; 2018102789; 55 N; 2019; 1º Semestre; Desistência; 2018; 21/02/2019; F; 1º Semestre; Parda; 8; 0
+S; Baixa Renda e PPI; 2019109951; 55 N; 2023; 1º Semestre; Formado; 2019; 28/09/2023; F; 1º Semestre; Parda; 8; 10
+S; Baixa Renda e Não PPI; 2013100718; 55 N; 2019; 1º Semestre; Formado; 2013; 13/09/2019; M; 1º Semestre; Branca; 8; 14
+S; Renda Normal e Não PPI; 2018205413; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 07/03/2023; M; 2º Semestre; Preta; 8; 10
+S; Renda Normal e Não PPI; 2020204215; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; M; 2º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2019108247; 55 N; 2021; 1º Semestre; Desistência; 2019; 23/06/2021; M; 1º Semestre; Branca; 8; 4
+S; Baixa Renda e Não PPI; 5SM/P; HUGO KEPP LITTIG; 55 N; Arquivologia - Noturno; 2017; Remanejamento SISU; 2018; 1º Semestre; 26/04/2018; M; Noturno; Bacharelado
+N; Ampla concorrência; 2017101551; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 22/03/2022; M; 1º Semestre; Parda; 8; 10
+S; Baixa Renda e Não PPI; 2020101541; 55 N; 2022; 2º Semestre; Desistência; 2020; 04/11/2022; F; 1º Semestre; Amarela; 8; 6
+S; Renda Normal e Não PPI; 2017101561; 55 N; 2021; 1º Semestre; Formado; 2017; 10/11/2021; M; 1º Semestre; Parda; 8; 10
+S; Renda Normal e Não PPI; 2017101560; 55 N; 2020; 2º Semestre; Formado; 2017; 09/07/2021; M; 1º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2019107365; 55 N; 2019; 1º Semestre; Desistência; 2019; 30/05/2019; M; 1º Semestre; Branca; 8; 1
+S; Renda Normal e PPI; 2015100909; 55 N; 2019; 2º Semestre; Formado; 2015; 14/02/2020; F; 1º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2019109442; 55 N; 2024; 1º Semestre; Formado; 2019; 02/12/2024; F; 1º Semestre; Parda; 8; 12
+N; Ampla concorrência; 2019201268; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; M; 2º Semestre; Parda; 8; 8
+S; Renda Normal e Não PPI; 2019107384; 55 N; 2023; 1º Semestre; Formado; 2019; 28/09/2023; F; 1º Semestre; Branca; 8; 10
+S; Renda Normal e PPI; 2020203866; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; F; 2º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2019200203; 55 N; 2023; 2º Semestre; Formado; 2019; 01/03/2024; F; 2º Semestre; Parda; 8; 8
+S; Baixa Renda e PPI; 2019200755; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; F; 2º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2019109602; 55 N; 2020; 2º Semestre; Desistência; 2019; 31/05/2021; F; 1º Semestre; Parda; 8; 3
+S; Renda Normal e PPI; 2017100093; 55 N; 2020; 2º Semestre; Formado; 2017; 09/07/2021; M; 1º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2020100172; 55 N; 2022; 1º Semestre; Desistência; 2020; 11/04/2022; F; 1º Semestre; Parda; 8; 3
+S; Renda Normal e Não PPI; 2020101365; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 1º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2021200870; 55 N; 2021; 2º Semestre; Desistência; 2021; 13/12/2021; F; 2º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2023200678; 55 N; 2023; 2º Semestre; Desistência; 2023; 21/09/2023; M; 2º Semestre; Parda; 8; 1
+S; Renda Normal e PPI; 2021101196; 55 N; 2021; 1º Semestre; Desistência; 2021; 26/10/2021; F; 1º Semestre; Parda; 8; 1
+S; Renda Normal e Não PPI; 2021200291; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; M; 2º Semestre; Preta; 8; 4
+S; Renda Normal e Não PPI; 2019109256; 55 N; 2023; 1º Semestre; Formado; 2019; 28/09/2023; F; 1º Semestre; Branca; 8; 10
+S; Renda Normal e Não PPI; 2017100303; 55 N; 2021; 1º Semestre; Formado; 2017; 10/11/2021; M; 1º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2014202540; 55 N; 2019; 2º Semestre; Formado; 2014; 14/02/2020; F; 2º Semestre; Parda; 8; 11
+S; Baixa Renda e PPI; 2020204922; 55 N; 2024; 1º Semestre; Formado; 2020; 02/12/2024; F; 2º Semestre; Parda; 8; 9
+S; Baixa Renda e Não PPI; 2017204406; 55 N; 2021; 2º Semestre; Formado; 2017; 28/04/2022; F; 2º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2020205308; 55 N; 2021; 1º Semestre; Desistência; 2020; 21/07/2021; M; 2º Semestre; Parda; 8; 2
+S; Renda Normal e PPI; 2018206495; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/02/2024; M; 2º Semestre; Preta; 8; 10
+S; Baixa Renda e PPI; 2018103551; 55 N; 2019; 1º Semestre; Reopção de curso; 2018; 24/07/2019; M; 1º Semestre; Parda; 8; 3
+N; Ampla concorrência; 2019107327; 55 N; 2019; 2º Semestre; Desistência; 2019; 01/10/2019; M; 1º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2021200025; 55 N; 2021; 2º Semestre; Desistência; 2021; 18/02/2022; M; 2º Semestre; Branca; 8; 1
+S; Renda Normal e Não PPI; 2023101683; 55 N; 2023; 1º Semestre; Desistência; 2023; 11/08/2023; M; 1º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2019109163; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; M; 1º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2017204412; 55 N; 2023; 2º Semestre; Formado; 2017; 01/03/2024; M; 2º Semestre; Branca; 8; 11
+S; Renda Normal e PPI; 2019200380; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; F; 2º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2023102041; 55 N; 2023; 1º Semestre; Desistência; 2023; 06/04/2023; F; 1º Semestre; Preta; 8; 1
+N; Ampla concorrência; 2017204884; 55 N; 2022; 1º Semestre; Desistência; 2017; 21/06/2022; M; 2º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2022200466; 55 N; 2022; 1º Semestre; Desistência; 2022; 18/08/2022; M; 2º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2020204367; 55 N; 2023; 2º Semestre; Formado; 2020; 01/03/2024; M; 2º Semestre; Branca; 8; 6
+S; Baixa Renda e PPI; 2017101558; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 07/03/2023; M; 1º Semestre; Parda; 8; 11
+N; Ampla concorrência; 2019100187; 55 N; 2022; 1º Semestre; Formado; 2019; 29/09/2022; F; 1º Semestre; Parda; 8; 8
+S; Renda Normal e Não PPI; 2023100525; 55 N; 2023; 1º Semestre; Desistência; 2023; 20/03/2023; F; 1º Semestre; Branca; 8; 1
+S; Baixa Renda e PPI; 2018103419; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 07/03/2023; M; 1º Semestre; Preta; 8; 11
+S; Baixa Renda e PPI; 2018207128; 55 N; 2022; 2º Semestre; Formado; 2018; 14/04/2023; M; 2º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2017202885; 55 N; 2022; 2º Semestre; Formado; 2017; 14/04/2023; F; 2º Semestre; Parda; 8; 12
+S; Renda Normal e PPI; 2016100310; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; F; 1º Semestre; Preta; 8; 8
+S; Baixa Renda e Não PPI; 2018206196; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 07/03/2023; F; 2º Semestre; Branca; 8; 9
+S; Renda Normal e Não PPI; 2018103199; 55 N; 2021; 1º Semestre; Formado; 2018; 10/11/2021; F; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2018102094; 55 N; 2021; 2º Semestre; Formado; 2018; 28/04/2022; F; 1º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2021200824; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; F; 2º Semestre; Parda; 8; 4
+S; Renda Normal e PPI; 2023101755; 55 N; 2023; 1º Semestre; Desistência; 2023; 23/05/2023; F; 1º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2012100139; 55 N; 2018; 2º Semestre; Formado; 2012; 14/03/2019; F; 1º Semestre; Branca; 8; 15
+N; Ampla concorrência; 2013202297; 55 N; 2018; 1º Semestre; Formado; 2013; 16/08/2018; M; 2º Semestre; Não Declarada; 8; 11
+S; Renda Normal e Não PPI; 2017204403; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 05/03/2020; M; 2º Semestre; Parda; 8; 5
+N; Ampla concorrência; 2016204410; 55 N; 2020; 1º Semestre; Formado; 2016; 27/01/2021; F; 2º Semestre; Branca; 8; 9
+S; Renda Normal e PPI; 2019200473; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; M; 2º Semestre; Preta; 8; 6
+S; Baixa Renda e Não PPI; 2018206086; 55 N; 2019; 1º Semestre; Reopção de curso; 2018; 24/07/2019; F; 2º Semestre; Não Declarada; 8; 2
+S; Baixa Renda e Não PPI; 2018102024; 55 N; 2021; 1º Semestre; Formado; 2018; 10/11/2021; F; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2013202308; 55 N; 2018; 2º Semestre; Formado; 2013; 14/03/2019; F; 2º Semestre; Parda; 8; 12
+S; Renda Normal e Não PPI; 2019107412; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; F; 1º Semestre; Amarela; 8; 9
+S; Baixa Renda e PPI; 2017204409; 55 N; 2019; 1º Semestre; Reopção de curso; 2017; 24/07/2019; F; 2º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2013204096; 55 N; 2019; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2013; 24/04/2019; F; 2º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2021100541; 55 N; 2021; 2º Semestre; Desistência; 2021; 11/11/2021; F; 1º Semestre; Parda; 8; 2
+S; Baixa Renda e Não PPI; 2018206071; 55 N; 2023; 2º Semestre; Formado; 2018; 01/03/2024; F; 2º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2020101917; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; M; 1º Semestre; Não Declarada; 8; 7
+N; Ampla concorrência; 2020203611; 55 N; 2021; 2º Semestre; Desistência; 2020; 13/12/2021; F; 2º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2016204432; 55 N; 2020; 1º Semestre; Formado; 2016; 27/01/2021; F; 2º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2023101076; 55 N; 2023; 1º Semestre; Desistência; 2023; 11/08/2023; F; 1º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2019109247; 55 N; 2022; 1º Semestre; Formado; 2019; 29/09/2022; F; 1º Semestre; Parda; 8; 8
+S; Renda Normal e Não PPI; 5SM/P; LAYS TRANCOSO DA COSTA; 55 N; Arquivologia - Noturno; 2017; Formado; 2023; 2º Semestre; 01/03/2024; F; Noturno; Bacharelado
+N; Ampla concorrência; 2017204416; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 05/03/2020; M; 2º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2018102518; 55 N; 2019; 1º Semestre; Desistência; 2018; 21/02/2019; M; 1º Semestre; Parda; 8; 0
+N; Ampla concorrência; 2019107605; 55 N; 2019; 1º Semestre; Desistência; 2019; 08/04/2019; M; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2021100587; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; M; 1º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2020205311; 55 N; 2022; 2º Semestre; Desistência; 2020; 15/09/2022; M; 2º Semestre; Parda; 8; 3
+N; Ampla concorrência; 2021200023; 55 N; 2022; 1º Semestre; Desistência; 2021; 11/04/2022; F; 2º Semestre; Parda; 8; 1
+S; Renda Normal e PPI; 2018205858; 55 N; 2021; 2º Semestre; Formado; 2018; 28/04/2022; F; 2º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2022201016; 55 N; 2024; 1º Semestre; Desligamento; 2022; 08/11/2024; F; 2º Semestre; Parda; 8; 5
+N; Ampla concorrência; 2021101868; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 07/03/2023; M; 1º Semestre; Parda; 8; 5
+S; Baixa Renda e PPI; 5SM/P; LISA KELLY RIBEIRO CARVALHO; 55 N; Arquivologia - Noturno; 2017; Desligamento: Resolução 68/2017-CEPE; 2022; 2º Semestre; 07/03/2023; F; Noturno; Bacharelado
+N; Ampla concorrência; 2019100173; 55 N; 2024; 1º Semestre; Formado; 2019; 02/12/2024; F; 1º Semestre; Branca; 8; 12
+S; Baixa Renda e Não PPI; 2019108796; 55 N; 2019; 1º Semestre; Desistência; 2019; 01/08/2019; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2018206489; 55 N; 2019; 1º Semestre; Desistência; 2018; 15/02/2019; F; 2º Semestre; Branca; 8; 0
+N; Ampla concorrência; 2016204420; 55 N; 2020; 2º Semestre; Formado; 2016; 09/07/2021; F; 2º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2015100905; 55 N; 2018; 2º Semestre; Formado; 2015; 14/03/2019; F; 1º Semestre; Preta; 8; 9
+N; Ampla concorrência; 2015100901; 55 N; 2020; 2º Semestre; Formado; 2015; 09/07/2021; M; 1º Semestre; Branca; 8; 13
+N; Ampla concorrência; 2019100169; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; F; 1º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2017204860; 55 N; 2021; 1º Semestre; Desistência; 2017; 27/10/2021; F; 2º Semestre; Branca; 8; 5
+S; Baixa Renda e Não PPI; 2020102866; 55 N; 2023; 1º Semestre; Desistência; 2020; 04/04/2023; F; 1º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2020203612; 55 N; 2024; 1º Semestre; Formado; 2020; 02/12/2024; M; 2º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2023100528; 55 N; 2023; 1º Semestre; Desistência; 2023; 11/08/2023; F; 1º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2020100111; 55 N; 2020; 2º Semestre; Desistência; 2020; 01/06/2021; F; 1º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2016100244; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; M; 1º Semestre; Preta; 8; 8
+N; Ampla concorrência; 2018102781; 55 N; 2019; 1º Semestre; Desistência; 2018; 11/03/2019; M; 1º Semestre; Branca; 8; 3
+N; Ampla concorrência; 2024102098; 55 N; 2024; 1º Semestre; Desligamento; 2024; 08/11/2024; M; 1º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2012203182; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2012; 22/02/2024; M; 2º Semestre; Branca; 8; 22
+N; Ampla concorrência; 2016100258; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 22/02/2024; M; 1º Semestre; Branca; 8; 12
+N; Ampla concorrência; 2018204982; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/02/2024; M; 2º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2017204414; 55 N; 2018; 1º Semestre; Desistência; 2017; 05/07/2018; M; 2º Semestre; Parda; 8; 3
+S; Baixa Renda e Não PPI; 2017101555; 55 N; 2022; 2º Semestre; Formado; 2017; 06/06/2023; M; 1º Semestre; Branca; 8; 13
+N; Ampla concorrência; 2017204942; 55 N; 2022; 1º Semestre; Formado; 2017; 29/09/2022; F; 2º Semestre; Parda; 8; 11
+N; Ampla concorrência; 2018102564; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 05/03/2020; F; 1º Semestre; Branca; 8; 5
+S; Renda Normal e Não PPI; 2022100365; 55 N; 2023; 1º Semestre; Desistência; 2022; 23/03/2023; M; 1º Semestre; Parda; 8; 3
+N; Ampla concorrência; 2017204839; 55 N; 2022; 1º Semestre; Formado; 2017; 29/09/2022; F; 2º Semestre; Branca; 8; 11
+N; Ampla concorrência; 2023100536; 55 N; 2023; 1º Semestre; Desistência; 2023; 11/08/2023; M; 1º Semestre; Branca; 8; 2
+S; Renda Normal e PPI; 2014202550; 55 N; 2019; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2014; 22/04/2019; M; 2º Semestre; Preta; 8; 10
+S; Baixa Renda e PPI; 2019201903; 55 N; 2020; 2º Semestre; Desistência; 2019; 08/06/2021; M; 2º Semestre; Preta; 8; 2
+S; Candidato BR; LUIZ GUSTAVO SILVA FERREIRA; 170.047.677-79; 2017; 2024; 1º Semestre; M; Desligamento; 08/11/2024; 2024; 1º Semestre; luizgustavosilvaferreira567@gmail.com; 8
+N; Ampla concorrência; 2020205309; 55 N; 2024; 1º Semestre; Formado; 2020; 02/12/2024; F; 2º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2018102739; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/02/2024; F; 1º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2019100142; 55 N; 2024; 1º Semestre; Formado; 2019; 02/12/2024; F; 1º Semestre; Parda; 8; 12
+N; Ampla concorrência; 2023200960; 55 N; 2023; 2º Semestre; Desistência; 2023; 28/07/2023; F; 2º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2022101057; 55 N; 2022; 1º Semestre; Desistência; 2022; 15/08/2022; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2018103675; 55 N; 2019; 1º Semestre; Reopção de curso; 2018; 24/07/2019; F; 1º Semestre; Branca; 8; 3
+S; Renda Normal e PPI; 2018103650; 55 N; 2019; 1º Semestre; Reopção de curso; 2018; 24/07/2019; M; 1º Semestre; Parda; 8; 3
+S; Renda Normal e PPI; 2019108853; 55 N; 2021; 2º Semestre; Formado; 2019; 28/04/2022; M; 1º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2017202882; 55 N; 2020; 2º Semestre; Formado; 2017; 09/07/2021; M; 2º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2016204456; 55 N; 2020; 2º Semestre; Formado; 2016; 09/07/2021; M; 2º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2017204413; 55 N; 2019; 1º Semestre; Reopção de curso; 2017; 24/07/2019; F; 2º Semestre; Branca; 8; 4
+N; Ampla concorrência; 2018205823; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/03/2022; M; 2º Semestre; Parda; 8; 7
+S; Baixa Renda e PPI; 5SM/P; MARCIO NUNES DE JESUS; 55 N; Arquivologia - Noturno; 2017; Desligamento: Resolução 68/2017-CEPE; 2022; 2º Semestre; 07/03/2023; M; Noturno; Bacharelado
+S; Renda Normal e PPI; 2021102576; 55 N; 2021; 2º Semestre; Desistência; 2021; 27/10/2021; M; 1º Semestre; Preta; 8; 1
+S; Renda Normal e PPI; 2018103560; 55 N; 2018; 2º Semestre; Desistência; 2018; 27/12/2018; M; 1º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2017204838; 55 N; 2022; 1º Semestre; Formado; 2017; 29/09/2022; M; 2º Semestre; Parda; 8; 11
+N; Ampla concorrência; 2016204411; 55 N; 2021; 1º Semestre; Formado; 2016; 10/11/2021; M; 2º Semestre; Parda; 8; 11
+N; Ampla concorrência; 2020100175; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 1º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2017202889; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 07/03/2023; M; 2º Semestre; Branca; 8; 12
+S; Renda Normal e PPI; 2022101134; 55 N; 2024; 1º Semestre; Desistência; 2022; 26/04/2024; M; 1º Semestre; Parda; 8; 5
+N; Ampla concorrência; 2018205623; 55 N; 2022; 1º Semestre; Reopção de Curso; 2018; 06/09/2022; F; 2º Semestre; Preta; 8; 8
+S; Renda Normal e Não PPI; 2017204402; 55 N; 2023; 2º Semestre; Formado; 2017; 01/03/2024; F; 2º Semestre; Branca; 8; 12
+S; Renda Normal e Não PPI; 2022101756; 55 N; 2022; 1º Semestre; Desistência; 2022; 06/09/2022; F; 1º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2022100375; 55 N; 2022; 1º Semestre; Desistência; 2022; 09/08/2022; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2020102238; 55 N; 2023; 2º Semestre; Formado; 2020; 01/03/2024; F; 1º Semestre; Parda; 8; 6
+S; Renda Normal e PPI; 2015100908; 55 N; 2019; 1º Semestre; Formado; 2015; 13/09/2019; F; 1º Semestre; Preta; 8; 9
+S; Baixa Renda e PPI; 2017101077; 55 N; 2020; 2º Semestre; Formado; 2017; 09/07/2021; F; 1º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2020101798; 55 N; 2024; 1º Semestre; Desistência; 2020; 01/02/2024; F; 1º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2014100363; 55 N; 2019; 1º Semestre; Formado; 2014; 13/09/2019; F; 1º Semestre; Parda; 8; 11
+N; Ampla concorrência; 2021101870; 55 N; 2022; 2º Semestre; Desistência; 2021; 27/01/2023; F; 1º Semestre; Preta; 8; 3
+S; Baixa Renda e Não PPI; 2020204679; 55 N; 2022; 1º Semestre; Desistência; 2020; 12/08/2022; F; 2º Semestre; Branca; 8; 4
+S; Baixa Renda e Não PPI; 2017101435; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 07/03/2023; F; 1º Semestre; Branca; 8; 12
+S; Renda Normal e PPI; 2016100311; 55 N; 2020; 1º Semestre; Formado; 2016; 27/01/2021; F; 1º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2018205005; 55 N; 2022; 2º Semestre; Formado; 2018; 06/06/2023; M; 2º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2020100383; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; M; 1º Semestre; Não Declarada; 8; 6
+N; Ampla concorrência; 2021200303; 55 N; 2021; 2º Semestre; Desistência; 2021; 29/10/2021; M; 2º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2018206491; 55 N; 2023; 1º Semestre; Formado; 2018; 28/09/2023; M; 2º Semestre; Branca; 8; 11
+S; Baixa Renda e Não PPI; 2020205439; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 2º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2019200502; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; M; 2º Semestre; Não Declarada; 8; 8
+S; Renda Normal e PPI; 2017202893; 55 N; 2021; 2º Semestre; Formado; 2017; 28/04/2022; M; 2º Semestre; Parda; 8; 10
+S; Renda Normal e PPI; 2016100308; 55 N; 2020; 2º Semestre; Formado; 2016; 09/07/2021; F; 1º Semestre; Parda; 8; 11
+S; Baixa Renda e PPI; 2017202881; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 07/03/2023; M; 2º Semestre; Parda; 8; 11
+S; Baixa Renda e PPI; 2020204754; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; F; 2º Semestre; Preta; 8; 5
+S; Renda Normal e Não PPI; 2020204368; 55 N; 2020; 1º Semestre; Desistência; 2020; 05/01/2021; F; 2º Semestre; Branca; 8; 0
+S; Renda Normal e Não PPI; 2018103694; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/02/2024; F; 1º Semestre; Parda; 8; 10
+S; Renda Normal e Não PPI; 2021200829; 55 N; 2021; 2º Semestre; Desistência; 2021; 03/11/2021; M; 2º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2018205844; 55 N; 2019; 1º Semestre; Desistência; 2018; 18/10/2019; M; 2º Semestre; Branca; 8; 3
+S; Baixa Renda e Não PPI; 2020101724; 55 N; 2021; 1º Semestre; Desistência; 2020; 25/01/2021; F; 1º Semestre; Parda; 8; 1
+S; Baixa Renda e Não PPI; 2016100273; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; F; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2019107480; 55 N; 2020; 1º Semestre; Desistência; 2019; 09/03/2020; F; 1º Semestre; Parda; 8; 3
+N; Ampla concorrência; 2018206485; 55 N; 2022; 2º Semestre; Formado; 2018; 14/04/2023; F; 2º Semestre; Amarela; 8; 10
+S; Renda Normal e PPI; 2015100911; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2015; 07/03/2023; F; 1º Semestre; Preta; 8; 16
+S; Renda Normal e Não PPI; 2023200113; 55 N; 2023; 2º Semestre; Desistência; 2023; 30/08/2023; M; 2º Semestre; Parda; 8; 1
+S; Renda Normal e PPI; 2018205850; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 07/03/2023; M; 2º Semestre; Parda; 8; 10
+S; Renda Normal e PPI; 2020102285; 55 N; 2023; 2º Semestre; Formado; 2020; 01/03/2024; F; 1º Semestre; Preta; 8; 6
+N; Ampla concorrência; 2021201095; 55 N; 2023; 1º Semestre; Desistência; 2021; 06/06/2023; F; 2º Semestre; Parda; 8; 3
+S; Renda Normal e PPI; 2016103524; 55 N; 2020; 1º Semestre; Formado; 2016; 01/10/2020; F; 1º Semestre; Preta; 8; 9
+S; Baixa Renda e Não PPI; 2016100271; 55 N; 2020; 2º Semestre; Formado; 2016; 14/06/2021; F; 1º Semestre; Branca; 8; 11
+N; Ampla concorrência; 2017101549; 55 N; 2020; 2º Semestre; Formado; 2017; 09/07/2021; F; 1º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2017205053; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 05/03/2020; F; 2º Semestre; Preta; 8; 6
+N; Ampla concorrência; 2019107469; 55 N; 2022; 2º Semestre; Formado; 2019; 14/04/2023; F; 1º Semestre; Não Declarada; 8; 9
+N; Ampla concorrência; 2023201626; 55 N; 2023; 2º Semestre; Desistência; 2023; 27/11/2023; F; 2º Semestre; Preta; 8; 1
+N; Ampla concorrência; 2016204439; 55 N; 2020; 2º Semestre; Formado; 2016; 09/07/2021; F; 2º Semestre; Preta; 8; 9
+N; Ampla concorrência; 2019109278; 55 N; 2019; 1º Semestre; Desistência; 2019; 26/07/2019; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2020204680; 55 N; 2020; 2º Semestre; Desistência; 2020; 05/04/2021; F; 2º Semestre; Branca; 8; 1
+S; Renda Normal e PPI; 2021102295; 55 N; 2022; 2º Semestre; Desistência; 2021; 26/10/2022; M; 1º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2021200306; 55 N; 2022; 2º Semestre; Desistência; 2021; 20/03/2023; M; 2º Semestre; Parda; 8; 4
+S; Renda Normal e PPI; 2017202891; 55 N; 2020; 2º Semestre; Formado; 2017; 14/06/2021; M; 2º Semestre; Preta; 8; 8
+N; Ampla concorrência; 2024102119; 55 N; 2024; 1º Semestre; Desistência; 2024; 25/04/2024; M; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2017204803; 55 N; 2024; 1º Semestre; Formado; 2017; 02/12/2024; F; 2º Semestre; Parda; 8; 13
+N; Ampla concorrência; 2017202888; 55 N; 2020; 1º Semestre; Formado; 2017; 24/12/2020; F; 2º Semestre; Parda; 8; 6
+S; Baixa Renda e PPI; 5SM/P; RAFA MU; 55 N; Arquivologia - Noturno; 2017; Desistência; 2023; 1º Semestre; 03/04/2023; M; Noturno; Bacharelado
+N; Ampla concorrência; 2022101773; 55 N; 2021; 2º Semestre; Desistência; 2022; 05/04/2022; M; 1º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2016100257; 55 N; 2023; 2º Semestre; Formado; 2016; 04/04/2024; F; 1º Semestre; Parda; 8; 17
+S; Renda Normal e PPI; 2023200127; 55 N; 2024; 1º Semestre; Desistência; 2023; 05/04/2024; F; 2º Semestre; Preta; 8; 2
+S; Renda Normal e PPI; 2019200611; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; F; 2º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2018205104; 55 N; 2020; 2º Semestre; Desistência; 2018; 31/05/2021; M; 2º Semestre; Preta; 8; 5
+N; Ampla concorrência; 2012100128; 55 N; 2019; 2º Semestre; Formado; 2012; 14/02/2020; M; 1º Semestre; Branca; 8; 16
+N; Ampla concorrência; 2020203613; 55 N; 2023; 1º Semestre; Desistência; 2020; 21/07/2023; M; 2º Semestre; Parda; 8; 5
+S; Renda Normal e PPI; 2017100091; 55 N; 2020; 1º Semestre; Formado; 2017; 27/01/2021; F; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2018206482; 55 N; 2023; 2º Semestre; Formado; 2018; 01/03/2024; F; 2º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2021201093; 55 N; 2022; 1º Semestre; Desistência; 2021; 06/04/2022; M; 2º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2019100175; 55 N; 2020; 2º Semestre; Desistência; 2019; 28/05/2021; M; 1º Semestre; Branca; 8; 4
+N; Ampla concorrência; 2016100251; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 07/03/2023; M; 1º Semestre; Parda; 8; 15
+S; Baixa Renda e PPI; 2016100313; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 07/03/2023; F; 1º Semestre; Parda; 8; 14
+N; Ampla concorrência; 2018206488; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 22/02/2024; F; 2º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2021101869; 55 N; 2022; 1º Semestre; Desistência; 2021; 08/07/2022; F; 1º Semestre; Não Declarada; 8; 2
+S; Renda Normal e Não PPI; 2023102045; 55 N; 2024; 1º Semestre; Desligamento; 2023; 08/11/2024; F; 1º Semestre; Branca; 8; 4
+N; Ampla concorrência; 2019100154; 55 N; 2023; 2º Semestre; Formado; 2019; 01/03/2024; M; 1º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2018205742; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2018; 07/03/2023; M; 2º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2016100248; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; M; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2016100252; 55 N; 2018; 2º Semestre; Formado; 2016; 14/03/2019; M; 1º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2017204845; 55 N; 2020; 1º Semestre; Formado; 2017; 27/01/2021; M; 2º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2017204851; 55 N; 2019; 1º Semestre; Reopção de curso; 2017; 24/07/2019; M; 2º Semestre; Amarela; 8; 4
+N; Ampla concorrência; 2020205313; 55 N; 2020; 2º Semestre; Desistência; 2020; 08/02/2021; M; 2º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2023101682; 55 N; 2023; 1º Semestre; Desistência; 2023; 11/08/2023; M; 1º Semestre; Branca; 8; 2
+S; Baixa Renda e PPI; 2014202984; 55 N; 2020; 1º Semestre; Desistência; 2017; 14/01/2020; M; 2º Semestre; Parda; 8; 3
+N; Ampla concorrência; 2021100533; 55 N; 2021; 1º Semestre; Desistência; 2021; 22/07/2021; M; 1º Semestre; Branca; 8; 1
+S; Baixa Renda e PPI; 2014202558; 55 N; 2020; 1º Semestre; Formado; 2014; 27/01/2021; F; 2º Semestre; Parda; 8; 13
+N; Ampla concorrência; 2016204437; 55 N; 2020; 1º Semestre; Formado; 2016; 27/01/2021; F; 2º Semestre; Parda; 8; 9
+S; Baixa Renda e PPI; 2017100090; 55 N; 2020; 1º Semestre; Formado; 2017; 27/01/2021; F; 1º Semestre; Preta; 8; 8
+N; Ampla concorrência; 2018205109; 55 N; 2018; 2º Semestre; Remanejamento SISU; 2018; 07/05/2018; F; 2º Semestre; Parda; 8; 0
+S; Renda Normal e Não PPI; 2020101164; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 1º Semestre; Branca; 8; 4
+S; Renda Normal e Não PPI; 2019108537; 55 N; 2019; 1º Semestre; Desistência; 2019; 26/02/2019; F; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2014202525; 55 N; 2022; 1º Semestre; Formado; 2014; 29/09/2022; F; 2º Semestre; Preta; 8; 17
+S; Renda Normal e PPI; 2019201086; 55 N; 2020; 1º Semestre; Desistência; 2019; 20/08/2020; F; 2º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2018205084; 55 N; 2022; 2º Semestre; Formado; 2018; 06/06/2023; F; 2º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2019201958; 55 N; 2024; 1º Semestre; Desligamento; 2019; 16/08/2024; F; 2º Semestre; Preta; 8; 9
+S; Baixa Renda e Não PPI; 2017101556; 55 N; 2020; 2º Semestre; Formado; 2017; 09/07/2021; F; 1º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2016204421; 55 N; 2019; 1º Semestre; Reopção de curso; 2016; 24/07/2019; M; 2º Semestre; Parda; 8; 6
+S; Renda Normal e PPI; 2018103512; 55 N; 2019; 1º Semestre; Reopção de curso; 2018; 24/07/2019; F; 1º Semestre; Parda; 8; 3
+N; Ampla concorrência; 2019200417; 55 N; 2023; 2º Semestre; Formado; 2019; 01/03/2024; M; 2º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2018102734; 55 N; 2022; 2º Semestre; Formado; 2018; 14/04/2023; M; 1º Semestre; Parda; 8; 11
+N; Ampla concorrência; 2022101766; 55 N; 2022; 1º Semestre; Desistência; 2022; 21/07/2022; M; 1º Semestre; Branca; 8; 1
+N; Ampla concorrência; 2018102842; 55 N; 2019; 2º Semestre; Desistência; 2018; 20/08/2019; M; 1º Semestre; Branca; 8; 4
+N; Ampla concorrência; 2016100249; 55 N; 2020; 1º Semestre; Formado; 2016; 27/01/2021; M; 1º Semestre; Branca; 8; 10
+N; Ampla concorrência; 2017205037; 55 N; 2019; 2º Semestre; Desistência; 2017; 30/12/2019; F; 2º Semestre; Não Declarada; 8; 4
+N; Ampla concorrência; 2020100174; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; F; 1º Semestre; Não Declarada; 8; 7
+N; Ampla concorrência; 2017201000; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 22/02/2024; F; 2º Semestre; Preta; 8; 11
+S; Renda Normal e Não PPI; 2018206490; 55 N; 2023; 1º Semestre; Desistência; 2018; 20/06/2023; F; 2º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2017100081; 55 N; 2022; 2º Semestre; Formado; 2017; 06/06/2023; F; 1º Semestre; Branca; 8; 12
+N; Ampla concorrência; 2016100256; 55 N; 2018; 1º Semestre; Formado; 2016; 16/08/2018; F; 1º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2019100199; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; F; 1º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2020100149; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; F; 1º Semestre; Branca; 8; 7
+N; Ampla concorrência; 2018102616; 55 N; 2018; 1º Semestre; Remanejamento SISU; 2018; 16/03/2018; F; 1º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2017205018; 55 N; 2021; 1º Semestre; Formado; 2017; 10/11/2021; F; 2º Semestre; Parda; 8; 9
+S; Baixa Renda e PPI; 2020204797; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; F; 2º Semestre; Preta; 8; 5
+N; Ampla concorrência; 2018206497; 55 N; 2019; 2º Semestre; Desistência; 2018; 29/10/2019; F; 2º Semestre; Parda; 8; 2
+S; Baixa Renda e Não PPI; 2016100270; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 07/03/2023; F; 1º Semestre; Branca; 8; 12
+N; Ampla concorrência; 2020203617; 55 N; 2021; 2º Semestre; Desistência; 2020; 04/03/2022; F; 2º Semestre; Branca; 8; 3
+S; Baixa Renda e PPI; 2016100312; 55 N; 2020; 1º Semestre; Formado; 2016; 01/10/2020; F; 1º Semestre; Preta; 8; 9
+S; Baixa Renda e PPI; 2018103691; 55 N; 2021; 1º Semestre; Formado; 2018; 10/11/2021; F; 1º Semestre; Parda; 8; 8
+S; Baixa Renda e Não PPI; 2018102014; 55 N; 2019; 1º Semestre; Reopção de curso; 2018; 24/07/2019; F; 1º Semestre; Branca; 8; 3
+N; Ampla concorrência; 2019100223; 55 N; 2019; 2º Semestre; Desistência; 2019; 19/11/2019; F; 1º Semestre; Parda; 8; 2
+N; Ampla concorrência; 2020100148; 55 N; 2021; 1º Semestre; Desistência; 2020; 26/10/2021; F; 1º Semestre; Preta; 8; 3
+N; Ampla concorrência; 2019201663; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 07/03/2023; F; 2º Semestre; Não Declarada; 8; 7
+S; Renda Normal e Não PPI; 2023100544; 55 N; 2023; 1º Semestre; Desistência; 2023; 11/08/2023; F; 1º Semestre; Branca; 8; 2
+S; Baixa Renda e PPI; 2020205440; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; F; 2º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2021100548; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; F; 1º Semestre; Branca; 8; 4
+N; Ampla concorrência; 2016100254; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; F; 1º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2016100259; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 22/02/2024; F; 1º Semestre; Parda; 8; 11
+S; Baixa Renda e PPI; 2013202323; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2013; 22/03/2022; F; 2º Semestre; Preta; 8; 16
+S; Renda Normal e PPI; 2017100089; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 22/02/2024; F; 1º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2017204821; 55 N; 2017; 2º Semestre; Desistência; 2017; 09/11/2017; F; 2º Semestre; Parda; 8; 1
+N; Ampla concorrência; 2019201377; 55 N; 2022; 1º Semestre; Desistência; 2019; 06/09/2022; M; 2º Semestre; Branca; 8; 6
+S; Renda Normal e PPI; 2014100383; 55 N; 2018; 2º Semestre; Desistência; 2014; 29/11/2018; M; 1º Semestre; Preta; 8; 10
+S; Renda Normal e Não PPI; 2018102930; 55 N; 2021; 2º Semestre; Formado; 2018; 28/04/2022; M; 1º Semestre; Branca; 8; 9
+S; Renda Normal e PPI; 2020205442; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 2º Semestre; Preta; 8; 5
+N; Ampla concorrência; 2015100897; 55 N; 2019; 1º Semestre; Formado; 2015; 13/09/2019; M; 1º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2019107356; 55 N; 2022; 1º Semestre; Desistência; 2019; 20/06/2022; M; 1º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2020100772; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 1º Semestre; Não Declarada; 8; 6
+N; Ampla concorrência; 2023101676; 55 N; 2023; 1º Semestre; Desistência; 2023; 04/04/2023; M; 1º Semestre; Parda; 8; 1
+S; Renda Normal e Não PPI; 2016103525; 55 N; 2019; 1º Semestre; Formado; 2016; 13/09/2019; F; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2019107247; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; F; 1º Semestre; Branca; 8; 8
+N; Ampla concorrência; 2013202305; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2013; 22/02/2024; M; 2º Semestre; Parda; 8; 20
+S; Baixa Renda e PPI; 2014205289; 55 N; 2019; 1º Semestre; Formado; 2014; 13/09/2019; F; 2º Semestre; Preta; 8; 11
+N; Ampla concorrência; 2019200727; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2019; 22/02/2024; F; 2º Semestre; Não Declarada; 8; 7
+N; Ampla concorrência; 2016100260; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2016; 05/03/2020; F; 1º Semestre; Parda; 8; 7
+N; Ampla concorrência; 2018102742; 55 N; 2018; 2º Semestre; Desistência; 2018; 23/07/2018; M; 1º Semestre; Branca; 8; 2
+N; Ampla concorrência; 2021101048; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2021; 22/02/2024; M; 1º Semestre; Parda; 8; 4
+N; Ampla concorrência; 2016100245; 55 N; 2019; 2º Semestre; Formado; 2016; 14/02/2020; F; 1º Semestre; Preta; 8; 8
+N; Ampla concorrência; 2017202886; 55 N; 2021; 1º Semestre; Formado; 2017; 10/11/2021; F; 2º Semestre; Branca; 8; 9
+S; Candidato PPI;  EP; 2024102092; Arquivologia - Noturno; 2017; 2024; 08/11/2024; 1º Semestre; Desligamento; F; 2024; Bacharelado; victoriaufes6500@outlook.com
+S; Renda Normal e PPI; 2018205920; 55 N; 2020; 1º Semestre; Reopção de Curso; 2018; 29/01/2021; F; 2º Semestre; Parda; 8; 4
+S; Baixa Renda e Não PPI; 2014100375; 55 N; 2018; 1º Semestre; Formado; 2014; 16/08/2018; F; 1º Semestre; Branca; 8; 10
+S; Baixa Renda e PPI; 2018206531; 55 N; 2020; 1º Semestre; Desistência; 2018; 02/12/2020; M; 2º Semestre; Preta; 8; 4
+N; Ampla concorrência; 2017101547; 55 N; 2021; 2º Semestre; Desistência; 2017; 14/02/2022; F; 1º Semestre; Preta; 8; 9
+S; Candidato IR; VIVIAN PRODENCINO SANTOS; 146.841.767-38; 2017; 2024; 1º Semestre; F; Desistência; 04/04/2024; 2024; 1º Semestre; santosvivianj@gmail.com; 8
+S; Renda Normal e PPI; 2018103681; 55 N; 2021; 1º Semestre; Formado; 2018; 10/11/2021; M; 1º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2019201956; 55 N; 2023; 1º Semestre; Formado; 2019; 28/09/2023; M; 2º Semestre; Branca; 8; 9
+N; Ampla concorrência; 2017100080; 55 N; 2021; 1º Semestre; Formado; 2017; 10/11/2021; M; 1º Semestre; Parda; 8; 10
+N; Ampla concorrência; 2017204831; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 22/03/2022; M; 2º Semestre; Parda; 8; 9
+N; Ampla concorrência; 2017202887; 55 N; 2021; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 22/03/2022; M; 2º Semestre; Parda; 8; 8
+S; Baixa Renda e PPI; 2018206212; 55 N; 2022; 1º Semestre; Formado; 2018; 29/09/2022; M; 2º Semestre; Parda; 8; 8
+N; Ampla concorrência; 2016100261; 55 N; 2023; 1º Semestre; Formado; 2016; 10/10/2023; M; 1º Semestre; Parda; 8; 16
+N; Ampla concorrência; 2020100179; 55 N; 2022; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 07/03/2023; M; 1º Semestre; Preta; 8; 7
+N; Ampla concorrência; 2017100137; 55 N; 2023; 2º Semestre; Formado; 2017; 04/04/2024; M; 1º Semestre; Parda; 8; 13
+N; Ampla concorrência; 2020203618; 55 N; 2021; 1º Semestre; Desistência; 2020; 29/10/2021; M; 2º Semestre; Branca; 8; 3
+S; Baixa Renda e PPI; 2018103414; 55 N; 2023; 2º Semestre; Formado; 2018; 01/03/2024; M; 1º Semestre; Preta; 8; 10
+S; Baixa Renda e PPI; 2017100304; 55 N; 2020; 2º Semestre; Formado; 2017; 09/07/2021; M; 1º Semestre; Preta; 8; 9
+N; Ampla concorrência; 2020102222; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2020; 22/02/2024; M; 1º Semestre; Branca; 8; 6
+N; Ampla concorrência; 2018206483; 55 N; 2019; 1º Semestre; Desistência; 2018; 12/02/2019; M; 2º Semestre; Branca; 8; 0
+N; Ampla concorrência; 2017205033; 55 N; 2020; 1º Semestre; Desligamento: Resolução 68/2017-CEPE; 2017; 05/03/2020; F; 2º Semestre; Parda; 8; 6
+N; Ampla concorrência; 2022200064; 55 N; 2024; 1º Semestre; Desligamento; 2022; 08/11/2024; F; 2º Semestre; Parda; 8; 5
+N; Ampla concorrência; 2018102536; 55 N; 2019; 1º Semestre; Desistência; 2018; 08/01/2019; F; 1º Semestre; Parda; 8; 0
+N; Ampla concorrência; 2012100122; 55 N; 2019; 1º Semestre; Formado; 2012; 13/09/2019; F; 1º Semestre; Parda; 8; 16
+N; Ampla concorrência; 2014202537; 55 N; 2023; 2º Semestre; Desligamento: Resolução 68/2017-CEPE; 2014; 22/02/2024; M; 2º Semestre; Branca; 8; 18
+S; Renda Normal e PPI; 2023100500; 55 N; 2023; 1º Semestre; Desistência; 2023; 11/08/2023; M; 1º Semestre; Parda; 8; 2

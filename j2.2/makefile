@@ -6,6 +6,6 @@ compila:
 	source guilherme_venv/bin/activate
 	pip install pystan matplotlib pandas
 executa: 
-	python main.py > arquivosaida
+	python main.py < arquivoentrada > arquivosaida 2>&1
 clear: 
 	rm -r arquivosaida guilherme_venv figs

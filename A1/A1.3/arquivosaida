@@ -1,0 +1,75 @@
+Building...
+
+Building: found in cache, done.Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 1.8e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.18 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 4.3e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.43 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 1.8e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.18 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3.9e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.39 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros:
+parameters         lp__  accept_stat__  ...           mu        sigma
+count       4000.000000    4000.000000  ...  4000.000000  4000.000000
+mean        -889.984782       0.929948  ...     6.712745     4.078182
+std            0.946434       0.087878  ...     0.184807     0.133170
+min         -896.079807       0.328649  ...     6.077711     3.658050
+25%         -890.409261       0.898327  ...     6.590906     3.986259
+50%         -889.684322       0.962990  ...     6.709816     4.076739
+75%         -889.285707       0.995853  ...     6.836949     4.167206
+max         -889.007224       1.000000  ...     7.337465     4.583184
+
+[8 rows x 9 columns]
+Gráfico da normal salvo em figs/normal.png
+
+
+>a) Probabilidade de um aluno qualquer terminar o curso em até 7 semestres:
+52.81%
+
+Valor calculado com base na média dos parâmetros mu e sigma estimados pelo modelo stan e a função cdf do scipy.
+
+
+>b) Probabilidade de um aluno qualquer terminar o curso entre 8 e 10 semestres:
+16.60%
+
+Valor calculado da mesma maneira para a probabilidade de 8 semestres subtraindo da probabilidade de 10 semestres.
+
+
+c) Maior característica dos alunos que terminaram em mais de 8 semestres:
+
+Gráfico salvo em figs/tipo_cota.png
+
+Gráfico salvo em figs/ano_evasao.png
+
+Gráfico salvo em figs/forma_evasao.png
+
+Gráfico salvo em figs/sexo.png
+
+Gráfico salvo em figs/etnia.png
+
+
+>Terminado análise dos dados por meio dos gráficos de contagem, pode-se perceber a seguinte tendência:
+
+Alunos que entraram sem cota têm maior tendência de evadir o curso em menos de 8 semestres do que outros tipos de cota.
+
+Além disso, a metade dos alunos que evadiram antes de 8 semestres foi por desistência, enquanto a maioria dos alunos que evadiram após 8 semestres foi por terem se formado.
+
+Alunos do sexo feminino tiveram uma tendência maior de levar mais de 8 semestres para evadir do que os alunos homens.
+
+Por fim, as outras características não apresentaram diferenças significativas entre os grupos de alunos que evadiram em menos ou mais de 8 semestres.
+
