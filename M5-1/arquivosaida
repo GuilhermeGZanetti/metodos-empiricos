@@ -1,25 +1,44 @@
-Exemplo 5.15 - ∫[0,1] x^4 dx: 0.199388 (Valor exato: 0.2)
-Exemplo 5.16 - ∫[2,5] sin(x) dx: -0.704106 (Valor exato: -0.700)
-Exemplo 5.17 - ∫[3,10] ∫[1,7] sin(x - y) dx dy: 0.098653 (Valor exato: 0.119)
+Exemplo com stan, realizando 10000 amostras uniformes de ]2, 7[: 
+Valor médio da amostra: 4.457204030686209
+Desvio padrão da amostra: 1.4342495283547356
+Tamanho da amostra: 10000
+Valor máximo da amostra: 6.998407858733419
+Valor mínimo da amostra: 2.001977001071861
+
+
+Comparação entre tempo para geração de 10000 amostras com numpy e stan.
+>Tempo de execução com stan: 12.201719 segundos
+>Tempo de execução com numpy: 0.001007 segundos
+
+>Assim, o stan pode ser usado para gerar as amostras em distribuições uniformes em comparação com o numpy nos exemplos 5.15 e 5.16.
+
+
+> Exemplo 5.15 com  - ∫[0,1] x^4 dx: 0.200092 - np / 0.19776485015360623 - stan / (Valor exato: 0.2)
+Exemplo 5.16 - ∫[2,5] sin(x) dx: -0.695921 - np / -0.6964643443086744 - stan / (Valor exato: -0.700)
+Exemplo 5.17 - ∫[3,10] ∫[1,7] sin(x - y) dx dy: 0.115535 - np / (Valor exato: 0.119)
 Obs.: Aproximação com 10^7 amostras, para ter maior precisão
-Exemplo 5.18 - ∫[1,∞] exp(-x²) dx: 0.139840 (Valor exato: 0.1394)
+Exemplo 5.18 - ∫[1,∞] exp(-x²) dx: 0.139452 (Valor exato: 0.1394)
+
+
+>Após os exemplos acima, é possível observar que os resultados com stan são muito similares aos resultados com numpy. Assim, devido ao tempo muito maior para geração com stan, os exercícios seguintes serão feitos com numpy.
+
 
 
 Exercício 1:
-Exercício 1.1 - ∫[0,1] x dx: 0.500576 (Valor exato: 0.5)
-Exercício 1.2 - ∫[1,3] x^2 dx: 8.673755 (Valor exato: 8.6667)
-Exercício 1.3 - ∫[0,π] sin(x) dx: 1.998235 (Valor exato: 2)
-Exercício 1.4 - ∫[1,π] exp(x) dx: 20.395531 (Valor exato: 20.422411)
+Exercício 1.1 - ∫[0,1] x dx: 0.499970 (Valor exato: 0.5)
+Exercício 1.2 - ∫[1,3] x^2 dx: 8.666944 (Valor exato: 8.6667)
+Exercício 1.3 - ∫[0,π] sin(x) dx: 1.997161 (Valor exato: 2)
+Exercício 1.4 - ∫[1,π] exp(x) dx: 20.415219 (Valor exato: 20.422411)
 Exercício 1.5 - ∫[0,∞] exp(-x) dx: 1.000000 (Valor exato: 1.000)
-Exercício 1.6 - ∫[0,∞] exp(-x^3) dx: 0.893818 (Valor exato: 0.893)
-Exercício 1.7 - ∫[0,3] sin(exp(x)) dx: 0.609357 (Valor exato: 0.606)
-Exercício 1.8 - ∫[0,1] (1/sqrt(2π)) exp(-x²/2) dx: 0.341387 (Valor exato: 0.341)
-Exercício 1.9 - ∫[0,2] (1/sqrt(2π)) exp(-x²/2) dx: 0.477566 (Valor exato: 0.477)
-Exercício 1.10 - ∫[0,3] (1/sqrt(2π)) exp(-x²/2) dx: 0.497909 (Valor exato: 0.499)
+Exercício 1.6 - ∫[0,∞] exp(-x^3) dx: 0.892971 (Valor exato: 0.893)
+Exercício 1.7 - ∫[0,3] sin(exp(x)) dx: 0.606210 (Valor exato: 0.606)
+Exercício 1.8 - ∫[0,1] (1/sqrt(2π)) exp(-x²/2) dx: 0.341252 (Valor exato: 0.341)
+Exercício 1.9 - ∫[0,2] (1/sqrt(2π)) exp(-x²/2) dx: 0.477233 (Valor exato: 0.477)
+Exercício 1.10 - ∫[0,3] (1/sqrt(2π)) exp(-x²/2) dx: 0.497596 (Valor exato: 0.499)
 
 
 Exercício 2:
-Exercício 2.1 - ∫[0,1] ∫[0,1] cos(x - y) dx dy: 0.919765 (Valor exato: 0.919)
-Exercício 2.2 - ∫[0,1] ∫[0,1] e^-(y+x)^2 / (x + y)^2 dx dy: 5.123289 (Valor exato: Indefinido)
-Exercício 2.3 - ∫[0,3] ∫[0,1] cos(x - y) dx dy: 1.023793 (Valor exato: 1.0335)
-Exercício 2.4 - ∫[0,5] ∫[0,2] e^-(y+x)^2 / (x + y)^2 dx dy: 3.272450 (Valor exato: Indefinido)
+Exercício 2.1 - ∫[0,1] ∫[0,1] cos(x - y) dx dy: 0.919269 (Valor exato: 0.919)
+Exercício 2.2 - ∫[0,1] ∫[0,1] e^-(y+x)^2 / (x + y)^2 dx dy: 4.383681 (Valor exato: Indefinido)
+Exercício 2.3 - ∫[0,3] ∫[0,1] cos(x - y) dx dy: 1.039626 (Valor exato: 1.0335)
+Exercício 2.4 - ∫[0,5] ∫[0,2] e^-(y+x)^2 / (x + y)^2 dx dy: 4.285009 (Valor exato: Indefinido)

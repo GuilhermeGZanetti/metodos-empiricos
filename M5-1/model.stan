@@ -1,15 +1,12 @@
 data {
-  int<lower=0> N;
-  vector[N] y;
+  real lower_bound;
+  real upper_bound; 
 }
 
 parameters {
-  real <upper = min(y)> alpha;
-  real <lower = max(y)> beta;
+  real<lower=-5, upper=30> x;
 }
 
 model {
-  alpha ~ normal(min(y), max(y)/2) T[, min(y)];
-  beta ~ normal(max(y), max(y)/2) T[max(y), ];
-  y ~ uniform(alpha, beta);
+  x ~ uniform(lower_bound, upper_bound); 
 }
