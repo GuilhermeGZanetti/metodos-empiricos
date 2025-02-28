@@ -64,7 +64,7 @@ print(f"Tamanho da amostra: {len(x)}")
 print(f"Valor máximo da amostra: {np.max(x)}")
 print(f"Valor mínimo da amostra: {np.min(x)}")
 
-print(f"\n\nComparação entre tempo para geração de 10000 amostras com numpy e stan.\n>Tempo de execução com stan: {tempo_stan:.6f} segundos")
+print(f"\n\nComparação entre tempo para geração de 100000 amostras com numpy e stan.\n>Tempo de execução com stan: {tempo_stan:.6f} segundos")
 print(f">Tempo de execução com numpy: {tempo_numpy:.6f} segundos")
 
 print("\n>Assim, o stan pode ser usado para gerar as amostras em distribuições uniformes em comparação com o numpy nos exemplos 5.15 e 5.16.\n")
