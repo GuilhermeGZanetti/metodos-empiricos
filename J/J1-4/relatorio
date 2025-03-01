@@ -1,0 +1,281 @@
+                  num_processo  ...           tipo
+0   #1500756-03.2022.8.26.0603  ...        trafico
+1   #1501122-75.2021.8.26.0571  ...        trafico
+2   #1501122-75.2021.8.26.0571  ...        trafico
+3   #1526214-17.2021.8.26.0228  ...  roubo_simples
+4   #1500013-77.2021.8.26.0069  ...        trafico
+..                         ...  ...            ...
+79  #1524443-04.2021.8.26.0228  ...        trafico
+80  #1501166-03.2020.8.26.0063  ...        trafico
+81  #1501257-65.2022.8.26.0567  ...        trafico
+82  #1502407-39.2021.8.26.0269  ...        trafico
+83  #1500078-63.2021.8.26.0557  ...        trafico
+
+[84 rows x 5 columns]
+Processando o tipo trafico
+
+
+>>Iniciando build do modelo do grupo trafico...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.1 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/tmp/httpstan_c4s30env/model_55m3a2kj.stan', line 10, column 4 to column 26)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 1.3e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.13 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/tmp/httpstan_c4s30env/model_55m3a2kj.stan', line 10, column 4 to column 26)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.1 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 2.1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.21 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros:
+parameters         lp__  accept_stat__  ...           mu        sigma
+count       4000.000000    4000.000000  ...  4000.000000  4000.000000
+mean        -502.648020       0.916401  ...  1336.853920  1088.719450
+std            1.050782       0.109777  ...   129.454588    96.022146
+min         -511.848187       0.089134  ...   877.149632   757.408194
+25%         -503.008492       0.878690  ...  1251.190765  1021.064014
+50%         -502.328461       0.958467  ...  1338.551682  1084.891543
+75%         -501.924255       0.995155  ...  1423.089222  1147.780095
+max         -501.628191       1.000000  ...  1872.206375  1500.395154
+
+[8 rows x 9 columns]
+Gráfico da normal salvo em figs/normal_trafico.png
+Processando o tipo roubo_simples
+
+
+>>Iniciando build do modelo do grupo roubo_simples...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 1.1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 1.3e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.13 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 2.1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.21 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 9e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.09 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros:
+parameters         lp__  accept_stat__  ...           mu        sigma
+count       4000.000000    4000.000000  ...  4000.000000  4000.000000
+mean         -31.673161       0.902234  ...  1485.098826  1047.445047
+std            1.377334       0.175789  ...   391.334839   359.770048
+min          -40.858990       0.000011  ...     2.452636   366.430891
+25%          -32.233475       0.900218  ...  1249.569456   778.365048
+50%          -31.291410       0.971153  ...  1511.275573   976.448948
+75%          -30.664112       0.997549  ...  1762.448419  1252.943578
+max          -30.239668       1.000000  ...  2284.001654  2287.848347
+
+[8 rows x 9 columns]
+Gráfico da normal salvo em figs/normal_roubo_simples.png
+Processando o tipo furto_qualificado
+
+
+>>Iniciando build do modelo do grupo furto_qualificado...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros:
+parameters         lp__  accept_stat__  ...           mu        sigma
+count       4000.000000   4.000000e+03  ...  4000.000000  4000.000000
+mean          -8.223810   8.864416e-01  ...   799.739909    75.794374
+std            1.282482   2.041583e-01  ...    29.137124    22.284876
+min          -17.082165   2.970393e-88  ...   730.136343    25.160779
+25%           -8.759368   8.874601e-01  ...   780.625482    57.731058
+50%           -7.839598   9.754258e-01  ...   802.353162    74.545085
+75%           -7.289972   9.970995e-01  ...   822.644465    93.249554
+max           -6.876471   1.000000e+00  ...   849.852904   119.992879
+
+[8 rows x 9 columns]
+Gráfico da normal salvo em figs/normal_furto_qualificado.png
+Processando o tipo furto_simples
+
+
+>>Iniciando build do modelo do grupo furto_simples...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 5e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros:
+parameters         lp__  accept_stat__  ...           mu        sigma
+count       4000.000000   4.000000e+03  ...  4000.000000  4000.000000
+mean          -3.730985   8.743929e-01  ...   219.096472   280.209855
+std            1.273662   2.061354e-01  ...   114.371307    84.811324
+min          -11.546105  8.655846e-200  ...     0.650142    86.187475
+25%           -4.313810   8.584805e-01  ...   129.125896   211.963604
+50%           -3.349048   9.659897e-01  ...   219.437626   278.363640
+75%           -2.784604   9.967096e-01  ...   309.967796   349.559810
+max           -2.387478   1.000000e+00  ...   435.961018   435.921087
+
+[8 rows x 9 columns]
+Gráfico da normal salvo em figs/normal_furto_simples.png
+Processando o tipo roubo_qualificado
+
+
+>>Iniciando build do modelo do grupo roubo_qualificado...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 6e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 4e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros:
+parameters         lp__  accept_stat__  ...           mu        sigma
+count       4000.000000   4.000000e+03  ...  4000.000000  4000.000000
+mean         -18.930837   8.730288e-01  ...  2482.464223  1732.363837
+std            1.257307   2.152976e-01  ...   628.802653   529.924934
+min          -26.301535   2.664254e-42  ...  1460.993177   642.167217
+25%          -19.461872   8.697181e-01  ...  1998.435814  1314.388268
+50%          -18.553220   9.675837e-01  ...  2409.946346  1674.558840
+75%          -18.009038   9.960271e-01  ...  2885.342385  2112.068679
+max          -17.606314   1.000000e+00  ...  4381.255934  2946.360695
+
+[8 rows x 9 columns]
+Gráfico da normal salvo em figs/normal_roubo_qualificado.png
+
+
+
+>>>Salvando os parâmetros em um arquivo de saida csv arquivosaida...
+>> Fazendo plot de todos os tipos juntos com cores diferentes
+> Gráfico da normal comparando todos os tipos salvo em figs/normal_todos.png
+> O gráfico gerado não serve de muita coisa pois, vemos que todos os tipos com a exceção de 'trafico' possuem muito poucas amostras e os desvios padrões ficaram muito elevados:
+tipo
+trafico              69
+roubo_simples         6
+roubo_qualificado     4
+furto_qualificado     3
+furto_simples         2
+Name: count, dtype: int64

@@ -1,0 +1,42 @@
+Arquivo de saída arquivosaida gerado com sucesso no formato CSV substituindo as colunas 2 e 3 pelos valores em dia.
+
+> Criando modelo stan para análise dos dados
+Building...
+
+Building: found in cache, done.Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 7e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 1.1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 7e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 7e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros:
+parameters         lp__  accept_stat__  ...           mu        sigma
+count       4000.000000    4000.000000  ...  4000.000000  4000.000000
+mean       -2034.722456       0.920686  ...    77.390911   383.751583
+std            1.027177       0.099593  ...     9.924912     5.176854
+min        -2043.948489       0.172005  ...    42.698479   365.589669
+25%        -2035.137730       0.879497  ...    70.604351   380.219281
+50%        -2034.393282       0.958011  ...    77.334703   383.662571
+75%        -2033.987542       0.995177  ...    84.115549   387.235878
+max        -2033.689051       1.000000  ...   111.809880   406.815601
+
+[8 rows x 9 columns]
+Gráfico da normal salvo em figs/normal.png
+Observando o gŕafico plotado em figs/normal.png fica claro que os dados não seguem uma distribuição normal, portanto nenhuma conclusão sobre esses dados pode ser tirada sem uma análise mais aprofundada.
