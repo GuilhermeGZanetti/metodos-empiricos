@@ -1,0 +1,48 @@
+# Análise de Sentenças por Juiz em Casos de Tráfico
+
+## Comparação entre MATHEUS OLIVEIRA NERY BORGES e FABRÍCIO ORFEO ARAUJO
+
+- Juiz 1 (MATHEUS OLIVEIRA NERY BORGES): 5 casos de tráfico
+- Juiz 2 (FABRÍCIO ORFEO ARAUJO): 5 casos de tráfico
+
+Esses dois juizes foram escolhidos manualmente e mais 3 sentenças de cada foram anotadas manualmente para se ter uma amostra um pouco mais significativa (anteriormente era 5)
+
+## Metodologia
+
+Seguindo a metodologia proposta por Cohen (1995, Sec. 4.2-4.3), utilizamos uma abordagem bayesiana para:
+
+1. Estimar a distribuição das sentenças do Juiz 1 usando Stan (modelo bayesiano)
+2. Comparar a média das sentenças do Juiz 2 com a distribuição estimada do Juiz 1
+3. Calcular o z-score e p-value para avaliar a significância estatística das diferenças
+4. Analisar como o desvio padrão e o intervalo de confiança variam com o tamanho da amostra
+
+## Resultados da Análise
+
+- Média posterior de sentenças do Juiz 1: 1697.04 dias
+- Desvio padrão posterior do Juiz 1: 1518.90 dias
+- Média de sentenças do Juiz 2: 2616.00 dias
+- Z-score da comparação: 1.35
+- P-value: 0.1761
+
+Não há evidência estatística suficiente (α=0.05) para concluir que existe diferença significativa entre as sentenças médias dos dois juízes.
+
+## Discussão sobre Desvio Padrão da Amostra
+
+Ao desenhar o gráfico se_vs_sample_size.png, observamos que o desvio padrão empírico calculado com o stan para amostras de tamanho 1, 2, 3, 4 e 5 segue de maneira aproximada o desvio padrão teórico calculado com sigma/sqrt(n).
+
+## Discussão sobre Tamanho da Amostra
+
+De acordo com a análise realizada, observamos que com n=5 casos, o desvio padrão da média é de 679.27 dias.
+
+Comparando com Bussab and Morettin (2013, Sec. 10.11), calculamos o tamanho mínimo de amostra necessário para obter uma margem de erro específica.
+
+Para uma margem de erro de 365 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 67 casos.
+Para uma margem de erro de 180 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 274 casos.
+Para uma margem de erro de 90 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 1095 casos.
+Para uma margem de erro de 30 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 9848 casos.
+
+## Conclusão
+
+A análise baseada na metodologia de Cohen (1995) nos permitiu comparar as decisões judiciais entre dois juízes com maior volume de casos de tráfico. Os gráficos gerados demonstram como o desvio padrão e o intervalo de confiança diminuem com o aumento do tamanho da amostra, ilustrando a importância de se ter um número adequado de casos para fazer inferências estatísticas robustas sobre as decisões judiciais.
+
+A análise do tamanho da amostra nos permite concluir que, para obtermos margens de erro mais estreitas (por exemplo, 30 dias), precisaríamos de amostras substancialmente maiores que as atuais (5 e 5 casos).

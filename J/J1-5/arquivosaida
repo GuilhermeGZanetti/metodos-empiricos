@@ -1,0 +1,163 @@
+Lendo arquivos de dados...
+Total de casos de tráfico com informação de juiz: 75
+
+Contagem de casos por juiz:
+juiz
+MATHEUS OLIVEIRA NERY BORGES       5
+FABRÍCIO ORFEO ARAUJO              5
+SANDRO NOGUEIRA DE BARROS LEITE    2
+CAROLINA MOREIRA GAMA              2
+EDMILSON ROSA DOS SANTOS           2
+Name: count, dtype: int64
+
+Juízes com mais casos de tráfico: MATHEUS OLIVEIRA NERY BORGES e FABRÍCIO ORFEO ARAUJO
+Juiz 1 (MATHEUS OLIVEIRA NERY BORGES) tem 5 casos de tráfico
+Juiz 2 (FABRÍCIO ORFEO ARAUJO) tem 5 casos de tráfico
+
+Juiz 1 sentenças válidas: 5
+Juiz 2 sentenças válidas: 5
+
+Compilando e ajustando modelo Stan para o Juiz 1...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 7e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 9e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.09 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 1.7e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.17 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3.1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.31 seconds.
+  Adjust your expectations accordingly!
+
+Resumo posterior:
+Média (mu): 1697.04 ± 573.02
+Desvio padrão (sigma): 1518.90
+
+Juiz 2 média: 2616.00
+Juiz 2 desvio padrão: 1240.85
+Z-score: 1.35
+P-value: 0.1761
+Resultado: Não existe diferença estatisticamente significativa entre as sentenças dos juízes (α=0.05)
+
+Criando gráficos para desvio padrão e intervalos de confiança...
+Calculando erros padrão empíricos para diferentes tamanhos de amostra...
+  Processando tamanho de amostra 1...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%  Erro para tamanho de amostra 1: Exception during call to services function: `RuntimeError("Initialization between (-2, 2) failed after 100 attempts. Try specifying initial values, reducing ranges of constrained values, or reparameterizing the model. Initialization failed. Rejecting initial value: Error evaluating the log probability at the initial value. Exception: lub_constrain: lb is 2660, but must be less than 2660.000000 (in '/tmp/httpstan_b2l4adsa/model_p7w4br5s.stan', line 6, column 4 to column 40) Rejecting initial value:")`, traceback: `['  File "/home/guigo/.pyenv/versions/3.11.10/lib/python3.11/site-packages/httpstan/services_stub.py", line 182, in call\n    raise RuntimeError(exception_message)\n']`
+  Processando tamanho de amostra 2...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  50% (2000/4000)
+Sampling: 100% (4000/4000)
+Sampling: 100% (4000/4000), done.
+Messages received during sampling:
+  Gradient evaluation took 8e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.08 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 1.1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.
+  Adjust your expectations accordingly!
+  Processando tamanho de amostra 3...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  50% (2000/4000)
+Sampling: 100% (4000/4000)
+Sampling: 100% (4000/4000), done.
+Messages received during sampling:
+  Gradient evaluation took 2e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.02 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Processando tamanho de amostra 4...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  50% (2000/4000)
+Sampling: 100% (4000/4000)
+Sampling: 100% (4000/4000), done.
+Messages received during sampling:
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+  Adjust your expectations accordingly!
+  Processando tamanho de amostra 5...
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  50% (2000/4000)
+Sampling: 100% (4000/4000)
+Sampling: 100% (4000/4000), done.
+Messages received during sampling:
+  Gradient evaluation took 7e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 3.5e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.35 seconds.
+  Adjust your expectations accordingly!
+Gráfico salvo em figs/se_vs_sample_size.png
+Gráfico salvo em figs/ci_vs_sample_size.png
+Gráfico de comparação dos juízes salvo em figs/judge_comparison.png
+
+Escrevendo relatório...
+
+Análise completa. Resultados salvos em 'relatorio' e gráficos salvos no diretório 'figs'.

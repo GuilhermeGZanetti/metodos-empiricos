@@ -1,15 +1,16 @@
-Dúvida aula sexta:
-Utilize a estrat´egia da (Cohen, 1995, Sec. 4.2–4.3) para comparar um par
-de ju´ızes em cada um dos crimes apontados no site do projeto. Gere um
-gr´afico semelhante aquele em (Cohen, 1995, Fig. 4.7) para seus experimen-
-tos. Diante dos resultados encontrados, discuta o tamanho necess´ario da
+Utilize a estratégia da (Cohen, 1995, Sec. 4.2–4.3) para comparar um par
+de juízes em cada um dos crimes apontados no site do projeto. Gere um
+gráfico semelhante aquele em (Cohen, 1995, Fig. 4.7) para seus experimen-
+tos. Diante dos resultados encontrados, discuta o tamanho necessário da
 amostra e compare com (Bussab and Morettin, 2013, Sec. 10.11). Submeta
-seus c´odigos e seu relat´orio comentando os resultados gerados.
+seus códigos e seu relatório comentando os resultados gerados.
 
 Em cohen sec 4.2 e 4.3 ele fala do teorema do limite central e de como fazer um teste de hipótese tendo uma distribuição de amostras de tamanho N.
 Passo a passo:
-- Gerar model stan com amostras de 5 casos do Juiz 1 
-- Pegar 5 casos do Juiz 2 e comparar a média com a distribuição calculada com Stan
-- Fazer plot do desvio padrão da normal do Stan para amostras de tamanho 1, 2, 3, 4 e 5
+1. Utilizar os arquivos arquivoentrada + processos para adicionar informação de qual juiz é responsável por qual sentença no arquivo de entrada
+2. Filtrar casos de tráfico e identificar os dois juizes com mais sentenças Juiz 1 e Juiz 2
+3. Gerar model stan com amostras dos casos de tráfico do Juiz 1 
+4. Pegar os casos do Juiz 2 e comparar a média dessa amostra com a distribuição calculada com Stan do passo 3
+5. Fazer plot do desvio padrão da normal do Stan para amostras de tamanho 1, ... N (N = número de sentencas do Juiz 1)
 
-O problema é que precisariamos de um número de amostras para cada juiz em cada tipo de crime, que não temos hoje. Fazemos a comparação só para tráfico, que tem mais amostras?
+Importante. Realizar análise apenas com os casos de tráfico, escolhendo dois juizes que possuam mais sentenças.
