@@ -1,0 +1,71 @@
+
+### Estratégia para a Reprodução da Tabela 3 do Artigo do Advogado
+
+A análise dos processos de Furto Simples foi conduzida com base na extração e processamento de textos das decisões judiciais, seguindo os seguintes passos:
+
+#### 1. Coleta de Dados
+- Inicialmente, o script verifica se o arquivo `conteudo.csv` existe para evitar downloads repetidos.
+- Se o arquivo não existir, os IDs dos processos são lidos a partir de `arquivoentrada`.
+- Para cada ID de processo, o texto da sentença correspondente é baixado da URL `http://200.137.66.21/tjsp/law-tjsp/decisoes/dados/{id}.txt`.
+- O conteúdo é armazenado em um `DataFrame` e salvo localmente para uso posterior.
+
+#### 2. Extração de Informações via Expressões Regulares
+- Foram definidas listas de palavras-chave para cada variável analisada, como "mau antecedente", "reincidência", "confissão espontânea", "crime tentado" e "repouso noturno".
+- A função `str.contains('|'.join(lista_palavras))` foi usada para verificar se os textos continham pelo menos uma das palavras-chave associadas a cada variável.
+- O número total de processos contendo cada característica foi contado e comparado com o número de processos onde a característica não estava presente.
+
+#### 3. Estrutura das Fases de Análise
+A análise foi dividida em três fases, correspondendo às categorias principais da Tabela 3:
+
+**1ª fase - Antecedentes**
+- Contagem de processos que mencionam "mau antecedente" ou "maus antecedentes".
+- Cálculo da proporção de casos com e sem antecedentes.
+
+**2ª fase - Reincidência e Confissão Espontânea**
+- Verificação da presença de termos relacionados à reincidência.
+- Contagem de menções à "confissão espontânea".
+- Comparação entre a quantidade de processos em que essas características aparecem e aqueles em que não aparecem.
+
+**3ª fase - Circunstâncias do Crime**
+- Identificação de processos que mencionam tentativa de crime.
+- Contagem de ocorrências relacionadas ao crime cometido durante o repouso noturno.
+
+#### 4. Apresentação dos Resultados
+- Para cada variável, o script imprime a quantidade absoluta e a proporção relativa de casos com e sem a característica correspondente.
+- Essas informações permitem a reprodução da Tabela 3 do artigo do advogado, refletindo a distribuição das características analisadas nos processos coletados.
+
+### Considerações Finais
+A estratégia usada baseia-se na automação da coleta e análise dos textos das decisões judiciais, aplicando técnicas de busca por palavras-chave para quantificar a presença de características específicas. Isso possibilita a construção da Tabela 3 de forma reprodutível e verificável, permitindo inferências sobre a aplicação da lei nos casos de Furto Simples.
+
+
+
+
+
+
+>>>> 1 fase <<<<
+
+>>> Antecedentes
+Quantidade de processos com mau antecedente: 94 - 0.34
+Quantidade de processos sem mau antecedente: 182 - 0.66
+
+
+>>>> 2 fase <<<<
+
+>>> Reincidencia
+Quantidade de processos com reincidencia: 130 - 0.47
+Quantidade de processos sem reincidencia: 146 - 0.53
+
+>>> Confissão espontânea
+Quantidade de processos com confissão espontânea: 127 - 0.46
+Quantidade de processos sem confissão espontânea: 149 - 0.54
+
+
+>>>> 3 fase <<<<
+
+>>> Crime Tentado
+Quantidade de processos com crime tentado: 24 - 0.09
+Quantidade de processos sem crime tentado: 252 - 0.91
+
+>>> Repouso Noturno
+Quantidade de processos com repouso noturno: 47 - 0.17
+Quantidade de processos sem repouso noturno: 229 - 0.83

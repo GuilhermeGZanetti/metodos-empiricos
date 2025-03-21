@@ -51,27 +51,27 @@ def build_model(data: dict, group: str) -> dict:
     }
 
 # Lendo arquivos de entrada
-df_sentencas = pd.read_csv('arquivoentrada', sep=';')
-if 'tipo' not in df_sentencas.columns:
-    try:
-        df_processos = pd.read_csv('processos.csv')
-        df_processos["num_processo"] = df_processos["Link"].apply(lambda x: x.split("/")[-1].replace(".pdf", ""))
+df_sentencas = pd.read_csv('arquivoentrada', sep=',')
+# if 'tipo' not in df_sentencas.columns:
+#     try:
+#         df_processos = pd.read_csv('processos.csv')
+#         df_processos["num_processo"] = df_processos["Link"].apply(lambda x: x.split("/")[-1].replace(".pdf", ""))
 
-        # Pegando processos num_processo de df_sentencas e adicionando o Tipo do df_processos
-        df_sentencas['tipo'] = ""
-        for index, row in df_sentencas.iterrows():
-            num_processo = str(row['num_processo']).replace("#", "")
-            tipo = df_processos[df_processos['num_processo'] == num_processo]['Tipo'].values
-            if len(tipo) > 0:
-                tipo = tipo[0]
-                df_sentencas.loc[index, 'tipo'] = tipo
-            else:
-                df_sentencas.loc[index, 'tipo'] = "Desconhecido"
+#         # Pegando processos num_processo de df_sentencas e adicionando o Tipo do df_processos
+#         df_sentencas['tipo'] = ""
+#         for index, row in df_sentencas.iterrows():
+#             num_processo = str(row['num_processo']).replace("#", "")
+#             tipo = df_processos[df_processos['num_processo'] == num_processo]['Tipo'].values
+#             if len(tipo) > 0:
+#                 tipo = tipo[0]
+#                 df_sentencas.loc[index, 'tipo'] = tipo
+#             else:
+#                 df_sentencas.loc[index, 'tipo'] = "Desconhecido"
 
-        print(df_sentencas)
-        df_sentencas.to_csv("arquivoentrada", index=False)
-    except Exception:
-        print("Erro: Arquivo processos.csv não encontrado. arquivoentrada não possui coluna tipo! Infelizmente não será possível fazer a analise sem essa coluna. Utilize o arquivoentrada enviado no moodle.")
+#         print(df_sentencas)
+#         df_sentencas.to_csv("arquivoentrada", index=False)
+#     except Exception:
+#         print("Erro: Arquivo processos.csv não encontrado. arquivoentrada não possui coluna tipo! Infelizmente não será possível fazer a analise sem essa coluna. Utilize o arquivoentrada enviado no moodle.")
 
 # Filtrando sentenças por tipo
 sentencas_tipos = {}

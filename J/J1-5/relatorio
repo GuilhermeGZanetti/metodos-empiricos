@@ -18,11 +18,11 @@ Seguindo a metodologia proposta por Cohen (1995, Sec. 4.2-4.3), utilizamos uma a
 
 ## Resultados da Análise
 
-- Média posterior de sentenças do Juiz 1: 1697.04 dias
-- Desvio padrão posterior do Juiz 1: 1518.90 dias
+- Média posterior de sentenças do Juiz 1: 1656.10 dias
+- Desvio padrão posterior do Juiz 1: 1509.45 dias
 - Média de sentenças do Juiz 2: 2616.00 dias
-- Z-score da comparação: 1.35
-- P-value: 0.1761
+- Z-score da comparação: 1.42
+- P-value: 0.1550
 
 Não há evidência estatística suficiente (α=0.05) para concluir que existe diferença significativa entre as sentenças médias dos dois juízes.
 
@@ -32,14 +32,14 @@ Ao desenhar o gráfico se_vs_sample_size.png, observamos que o desvio padrão em
 
 ## Discussão sobre Tamanho da Amostra
 
-De acordo com a análise realizada, observamos que com n=5 casos, o desvio padrão da média é de 679.27 dias.
+De acordo com a análise realizada, observamos que com n=5 casos, o desvio padrão da média é de 675.05 dias.
 
 Comparando com Bussab and Morettin (2013, Sec. 10.11), calculamos o tamanho mínimo de amostra necessário para obter uma margem de erro específica.
 
-Para uma margem de erro de 365 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 67 casos.
-Para uma margem de erro de 180 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 274 casos.
-Para uma margem de erro de 90 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 1095 casos.
-Para uma margem de erro de 30 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 9848 casos.
+Para uma margem de erro de 365 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 66 casos.
+Para uma margem de erro de 180 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 271 casos.
+Para uma margem de erro de 90 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 1081 casos.
+Para uma margem de erro de 30 dias (intervalo de confiança de 95%), seria necessária uma amostra de pelo menos 9726 casos.
 
 ## Conclusão
 
