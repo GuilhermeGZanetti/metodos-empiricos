@@ -1,0 +1,1759 @@
+
+
+>Iniciando build do modelo stan para encontrar normal da população completa
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 2e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.2 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/tmp/httpstan_vqh5gif6/model_6p2yycwu.stan', line 10, column 4 to column 26)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 2.7e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.27 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/tmp/httpstan_vqh5gif6/model_6p2yycwu.stan', line 10, column 4 to column 26)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 2.5e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.25 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/tmp/httpstan_vqh5gif6/model_6p2yycwu.stan', line 10, column 4 to column 26)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 2.7e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.27 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros da população completa:
+parameters         lp__  accept_stat__  ...           mu        sigma
+count       4000.000000    4000.000000  ...  4000.000000  4000.000000
+mean       -8055.056197       0.922691  ...  1756.291906  1475.858872
+std            1.001911       0.096804  ...    46.629772    31.887045
+min        -8065.492982       0.237815  ...  1540.792671  1379.066377
+25%        -8055.464227       0.885238  ...  1724.964705  1453.867123
+50%        -8054.738517       0.960405  ...  1755.635321  1474.817058
+75%        -8054.344328       0.995660  ...  1787.712581  1497.636313
+max        -8054.057568       1.000000  ...  1897.372792  1605.930477
+
+[8 rows x 9 columns]
+Mu: 1756.291906251328, Sigma: 1475.858871524165
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Barueri
+
+Número de processos na comarca: 6
+Comarca Barueri possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ibiúna
+
+Número de processos na comarca: 2
+Comarca Ibiúna possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca SÃO PAULO
+
+Número de processos na comarca: 116
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 1e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.1 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/tmp/httpstan_vqh5gif6/model_6p2yycwu.stan', line 10, column 4 to column 26)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 1.2e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.12 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/tmp/httpstan_vqh5gif6/model_6p2yycwu.stan', line 10, column 4 to column 26)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 4e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.4 seconds.
+  Adjust your expectations accordingly!
+  Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+  Exception: normal_lpdf: Scale parameter is 0, but must be positive! (in '/tmp/httpstan_vqh5gif6/model_6p2yycwu.stan', line 10, column 4 to column 26)
+  If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+  but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+  Gradient evaluation took 1.8e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.18 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros da comarca SÃO PAULO:
+Mu: 1422.3881656544916, Sigma: 1450.091671249233
+
+
+>Verificando pertencimento com t-test frequentista
+T-statistic: 2.3475
+P-value: 0.0203
+
+
+>Verificando probabilidade de pertencimento segundo Cohen 4.2
+Count maior: 996 / Count menor: 4
+Probabilidade de pertencer: 0.0040
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Barretos
+
+Número de processos na comarca: 8
+Comarca Barretos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Mauá
+
+Número de processos na comarca: 11
+Comarca Mauá possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Tambaú
+
+Número de processos na comarca: 3
+Comarca Tambaú possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Bebedouro
+
+Número de processos na comarca: 3
+Comarca Bebedouro possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cravinhos
+
+Número de processos na comarca: 3
+Comarca Cravinhos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Campinas
+
+Número de processos na comarca: 14
+Comarca Campinas possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ourinhos
+
+Número de processos na comarca: 4
+Comarca Ourinhos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Leme
+
+Número de processos na comarca: 7
+Comarca Leme possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Tabapuã
+
+Número de processos na comarca: 2
+Comarca Tabapuã possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cosmópolis
+
+Número de processos na comarca: 9
+Comarca Cosmópolis possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Limeira
+
+Número de processos na comarca: 6
+Comarca Limeira possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Osasco
+
+Número de processos na comarca: 5
+Comarca Osasco possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Taboão da Serra
+
+Número de processos na comarca: 8
+Comarca Taboão da Serra possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Bauru
+
+Número de processos na comarca: 11
+Comarca Bauru possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jacareí
+
+Número de processos na comarca: 5
+Comarca Jacareí possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jacupiranga
+
+Número de processos na comarca: 3
+Comarca Jacupiranga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itapevi
+
+Número de processos na comarca: 4
+Comarca Itapevi possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cardoso
+
+Número de processos na comarca: 1
+Comarca Cardoso possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Catanduva
+
+Número de processos na comarca: 3
+Comarca Catanduva possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Franco da Rocha
+
+Número de processos na comarca: 1
+Comarca Franco da Rocha possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Mogi das Cruzes
+
+Número de processos na comarca: 7
+Comarca Mogi das Cruzes possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Peruíbe
+
+Número de processos na comarca: 10
+Comarca Peruíbe possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jandira
+
+Número de processos na comarca: 1
+Comarca Jandira possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São José dos Campos
+
+Número de processos na comarca: 14
+Comarca São José dos Campos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Guará
+
+Número de processos na comarca: 3
+Comarca Guará possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itu
+
+Número de processos na comarca: 8
+Comarca Itu possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Piracicaba
+
+Número de processos na comarca: 16
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 4e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 4e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 7e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 5e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros da comarca Piracicaba:
+Mu: 1550.2453951933026, Sigma: 970.4517156817172
+
+
+>Verificando pertencimento com t-test frequentista
+T-statistic: 0.8345
+P-value: 0.4162
+
+
+>Verificando probabilidade de pertencimento segundo Cohen 4.2
+Count maior: 702 / Count menor: 298
+Probabilidade de pertencer: 0.2980
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Guarulhos
+
+Número de processos na comarca: 13
+Comarca Guarulhos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Diadema
+
+Número de processos na comarca: 12
+Comarca Diadema possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cotia
+
+Número de processos na comarca: 3
+Comarca Cotia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Mongaguá
+
+Número de processos na comarca: 3
+Comarca Mongaguá possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Mogi-Mirim
+
+Número de processos na comarca: 4
+Comarca Mogi-Mirim possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ribeirão Preto
+
+Número de processos na comarca: 14
+Comarca Ribeirão Preto possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Sorocaba
+
+Número de processos na comarca: 15
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 4e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 4e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 8e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.08 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 5e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros da comarca Sorocaba:
+Mu: 3089.8919110575525, Sigma: 2052.3838271045583
+
+
+>Verificando pertencimento com t-test frequentista
+T-statistic: -2.5072
+P-value: 0.0249
+
+
+>Verificando probabilidade de pertencimento segundo Cohen 4.2
+Count maior: 0 / Count menor: 1000
+Probabilidade de pertencer: 0.0000
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Colina
+
+Número de processos na comarca: 5
+Comarca Colina possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Indaiatuba
+
+Número de processos na comarca: 6
+Comarca Indaiatuba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Suzano
+
+Número de processos na comarca: 18
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 8e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.08 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 9e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.09 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 1.4e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.14 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 1.5e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.15 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros da comarca Suzano:
+Mu: 2382.9378504063607, Sigma: 1212.7807178607766
+
+
+>Verificando pertencimento com t-test frequentista
+T-statistic: -2.1645
+P-value: 0.0442
+
+
+>Verificando probabilidade de pertencimento segundo Cohen 4.2
+Count maior: 40 / Count menor: 960
+Probabilidade de pertencer: 0.0400
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ubatuba
+
+Número de processos na comarca: 4
+Comarca Ubatuba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Lucélia
+
+Número de processos na comarca: 1
+Comarca Lucélia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São José do Rio Preto
+
+Número de processos na comarca: 13
+Comarca São José do Rio Preto possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Guaíra
+
+Número de processos na comarca: 5
+Comarca Guaíra possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Casa Branca
+
+Número de processos na comarca: 2
+Comarca Casa Branca possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Registro
+
+Número de processos na comarca: 3
+Comarca Registro possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Assis
+
+Número de processos na comarca: 5
+Comarca Assis possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Carlos
+
+Número de processos na comarca: 4
+Comarca São Carlos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Guarujá
+
+Número de processos na comarca: 12
+Comarca Guarujá possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Urupês
+
+Número de processos na comarca: 1
+Comarca Urupês possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Palmital
+
+Número de processos na comarca: 1
+Comarca Palmital possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Tupã
+
+Número de processos na comarca: 3
+Comarca Tupã possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Votuporanga
+
+Número de processos na comarca: 5
+Comarca Votuporanga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Socorro
+
+Número de processos na comarca: 3
+Comarca Socorro possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Araçatuba
+
+Número de processos na comarca: 6
+Comarca Araçatuba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Franca
+
+Número de processos na comarca: 13
+Comarca Franca possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Carapicuíba
+
+Número de processos na comarca: 4
+Comarca Carapicuíba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Paulo
+
+Número de processos na comarca: 6
+Comarca São Paulo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Bariri
+
+Número de processos na comarca: 2
+Comarca Bariri possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Bárbara d'Oeste
+
+Número de processos na comarca: 4
+Comarca Santa Bárbara d'Oeste possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca José Bonifácio
+
+Número de processos na comarca: 11
+Comarca José Bonifácio possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Lençóis Paulista
+
+Número de processos na comarca: 4
+Comarca Lençóis Paulista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Americana
+
+Número de processos na comarca: 14
+Comarca Americana possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itapira
+
+Número de processos na comarca: 5
+Comarca Itapira possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Aparecida
+
+Número de processos na comarca: 5
+Comarca Aparecida possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pindamonhangaba
+
+Número de processos na comarca: 2
+Comarca Pindamonhangaba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São José do Rio Pardo
+
+Número de processos na comarca: 4
+Comarca São José do Rio Pardo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jardinópolis
+
+Número de processos na comarca: 4
+Comarca Jardinópolis possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pedreira
+
+Número de processos na comarca: 3
+Comarca Pedreira possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Presidente Prudente
+
+Número de processos na comarca: 12
+Comarca Presidente Prudente possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Caçapava
+
+Número de processos na comarca: 9
+Comarca Caçapava possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Campo Limpo Paulista
+
+Número de processos na comarca: 1
+Comarca Campo Limpo Paulista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Rio Grande da Serra
+
+Número de processos na comarca: 2
+Comarca Rio Grande da Serra possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Tremembé
+
+Número de processos na comarca: 6
+Comarca Tremembé possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Conchal
+
+Número de processos na comarca: 8
+Comarca Conchal possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itararé
+
+Número de processos na comarca: 6
+Comarca Itararé possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itanhaém
+
+Número de processos na comarca: 4
+Comarca Itanhaém possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itaquaquecetuba
+
+Número de processos na comarca: 12
+Comarca Itaquaquecetuba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Morro Agudo
+
+Número de processos na comarca: 1
+Comarca Morro Agudo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Araraquara
+
+Número de processos na comarca: 9
+Comarca Araraquara possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pontal
+
+Número de processos na comarca: 3
+Comarca Pontal possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Guaratinguetá
+
+Número de processos na comarca: 3
+Comarca Guaratinguetá possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Rio Claro
+
+Número de processos na comarca: 7
+Comarca Rio Claro possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Adamantina
+
+Número de processos na comarca: 1
+Comarca Adamantina possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Tatuí
+
+Número de processos na comarca: 6
+Comarca Tatuí possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Lorena
+
+Número de processos na comarca: 7
+Comarca Lorena possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Presidente Epitácio
+
+Número de processos na comarca: 3
+Comarca Presidente Epitácio possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pederneiras
+
+Número de processos na comarca: 1
+Comarca Pederneiras possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santos
+
+Número de processos na comarca: 10
+Comarca Santos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Presidente Venceslau
+
+Número de processos na comarca: 3
+Comarca Presidente Venceslau possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Guariba
+
+Número de processos na comarca: 1
+Comarca Guariba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Flórida Paulista
+
+Número de processos na comarca: 1
+Comarca Flórida Paulista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Marília
+
+Número de processos na comarca: 6
+Comarca Marília possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Amparo
+
+Número de processos na comarca: 3
+Comarca Amparo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pereira Barreto
+
+Número de processos na comarca: 2
+Comarca Pereira Barreto possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Mirassol
+
+Número de processos na comarca: 5
+Comarca Mirassol possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cachoeira Paulista
+
+Número de processos na comarca: 1
+Comarca Cachoeira Paulista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Bernardo do Campo
+
+Número de processos na comarca: 10
+Comarca São Bernardo do Campo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Patrocínio Paulista
+
+Número de processos na comarca: 3
+Comarca Patrocínio Paulista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa FÉ do Sul
+
+Número de processos na comarca: 1
+Comarca Santa FÉ do Sul possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Mogi-Guaçu
+
+Número de processos na comarca: 7
+Comarca Mogi-Guaçu possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Taubaté
+
+Número de processos na comarca: 8
+Comarca Taubaté possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Olímpia
+
+Número de processos na comarca: 3
+Comarca Olímpia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pirapozinho
+
+Número de processos na comarca: 3
+Comarca Pirapozinho possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itápolis
+
+Número de processos na comarca: 1
+Comarca Itápolis possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Maracai
+
+Número de processos na comarca: 5
+Comarca Maracai possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itapetininga
+
+Número de processos na comarca: 5
+Comarca Itapetininga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Hortolândia
+
+Número de processos na comarca: 4
+Comarca Hortolândia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itatinga
+
+Número de processos na comarca: 2
+Comarca Itatinga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Paraguaçu Paulista
+
+Número de processos na comarca: 2
+Comarca Paraguaçu Paulista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cruzeiro
+
+Número de processos na comarca: 6
+Comarca Cruzeiro possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Rosa de Viterbo
+
+Número de processos na comarca: 1
+Comarca Santa Rosa de Viterbo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itapecerica da Serra
+
+Número de processos na comarca: 4
+Comarca Itapecerica da Serra possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ferraz de Vasconcelos
+
+Número de processos na comarca: 5
+Comarca Ferraz de Vasconcelos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Penápolis
+
+Número de processos na comarca: 2
+Comarca Penápolis possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santo André
+
+Número de processos na comarca: 15
+Building...
+
+Building: found in cache, done.Messages from stanc:
+Warning: The parameter sigma has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Warning: The parameter mu has no priors. This means either no prior is
+    provided, or the prior(s) depend on data variables. In the later case,
+    this may be a false positive.
+Sampling:   0%
+Sampling:  25% (2000/8000)
+Sampling:  50% (4000/8000)
+Sampling:  75% (6000/8000)
+Sampling: 100% (8000/8000)
+Sampling: 100% (8000/8000), done.
+Messages received during sampling:
+  Gradient evaluation took 4e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 6.8e-05 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.68 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 4e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+  Adjust your expectations accordingly!
+  Gradient evaluation took 7e-06 seconds
+  1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+  Adjust your expectations accordingly!
+
+
+>Terminado build do modelo!
+
+>Descrição dos parâmetros da comarca Santo André:
+Mu: 2117.7644548600933, Sigma: 1558.8186633980429
+
+
+>Verificando pertencimento com t-test frequentista
+T-statistic: -0.8923
+P-value: 0.3869
+
+
+>Verificando probabilidade de pertencimento segundo Cohen 4.2
+Count maior: 159 / Count menor: 841
+Probabilidade de pertencer: 0.1590
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cafelândia
+
+Número de processos na comarca: 3
+Comarca Cafelândia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Urânia
+
+Número de processos na comarca: 2
+Comarca Urânia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Potirendaba
+
+Número de processos na comarca: 2
+Comarca Potirendaba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Bastos
+
+Número de processos na comarca: 6
+Comarca Bastos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Manuel
+
+Número de processos na comarca: 2
+Comarca São Manuel possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Roque
+
+Número de processos na comarca: 7
+Comarca São Roque possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Branca
+
+Número de processos na comarca: 4
+Comarca Santa Branca possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Botucatu
+
+Número de processos na comarca: 6
+Comarca Botucatu possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Vicente
+
+Número de processos na comarca: 5
+Comarca São Vicente possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jaboticabal
+
+Número de processos na comarca: 1
+Comarca Jaboticabal possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Promissão
+
+Número de processos na comarca: 4
+Comarca Promissão possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Matão
+
+Número de processos na comarca: 5
+Comarca Matão possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Panorama
+
+Número de processos na comarca: 2
+Comarca Panorama possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Lins
+
+Número de processos na comarca: 10
+Comarca Lins possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Orlândia
+
+Número de processos na comarca: 5
+Comarca Orlândia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Salto de Pirapora
+
+Número de processos na comarca: 1
+Comarca Salto de Pirapora possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jaú
+
+Número de processos na comarca: 6
+Comarca Jaú possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cajamar
+
+Número de processos na comarca: 2
+Comarca Cajamar possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Paranapanema
+
+Número de processos na comarca: 2
+Comarca Paranapanema possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Garça
+
+Número de processos na comarca: 4
+Comarca Garça possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Arujá
+
+Número de processos na comarca: 5
+Comarca Arujá possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Auriflama
+
+Número de processos na comarca: 1
+Comarca Auriflama possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Nova Odessa
+
+Número de processos na comarca: 5
+Comarca Nova Odessa possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Valparaíso
+
+Número de processos na comarca: 2
+Comarca Valparaíso possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Brotas
+
+Número de processos na comarca: 4
+Comarca Brotas possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Sebastião
+
+Número de processos na comarca: 4
+Comarca São Sebastião possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Mairiporã
+
+Número de processos na comarca: 1
+Comarca Mairiporã possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Barra Bonita
+
+Número de processos na comarca: 3
+Comarca Barra Bonita possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cananeia
+
+Número de processos na comarca: 2
+Comarca Cananeia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Borborema
+
+Número de processos na comarca: 6
+Comarca Borborema possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Caconde
+
+Número de processos na comarca: 1
+Comarca Caconde possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ituverava
+
+Número de processos na comarca: 1
+Comarca Ituverava possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cândido Mota
+
+Número de processos na comarca: 2
+Comarca Cândido Mota possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Miguel Arcanjo
+
+Número de processos na comarca: 4
+Comarca São Miguel Arcanjo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Mairinque
+
+Número de processos na comarca: 1
+Comarca Mairinque possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santana de Parnaíba
+
+Número de processos na comarca: 2
+Comarca Santana de Parnaíba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Cruz do Rio Pardo
+
+Número de processos na comarca: 1
+Comarca Santa Cruz do Rio Pardo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Caraguatatuba
+
+Número de processos na comarca: 4
+Comarca Caraguatatuba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Junqueirópolis
+
+Número de processos na comarca: 2
+Comarca Junqueirópolis possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Buritama
+
+Número de processos na comarca: 1
+Comarca Buritama possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Promissao
+
+Número de processos na comarca: 2
+Comarca Promissao possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Brodowski
+
+Número de processos na comarca: 2
+Comarca Brodowski possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Salto
+
+Número de processos na comarca: 3
+Comarca Salto possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Birigui
+
+Número de processos na comarca: 1
+Comarca Birigui possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Agudos
+
+Número de processos na comarca: 2
+Comarca Agudos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pirangi
+
+Número de processos na comarca: 1
+Comarca Pirangi possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jarinu
+
+Número de processos na comarca: 4
+Comarca Jarinu possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pacaembu
+
+Número de processos na comarca: 1
+Comarca Pacaembu possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Avaré
+
+Número de processos na comarca: 1
+Comarca Avaré possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Miracatu
+
+Número de processos na comarca: 2
+Comarca Miracatu possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ilhabela
+
+Número de processos na comarca: 3
+Comarca Ilhabela possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cerquilho
+
+Número de processos na comarca: 1
+Comarca Cerquilho possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Poá
+
+Número de processos na comarca: 1
+Comarca Poá possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Dois Córregos
+
+Número de processos na comarca: 2
+Comarca Dois Córregos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Roseira
+
+Número de processos na comarca: 1
+Comarca Roseira possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Embu das Artes
+
+Número de processos na comarca: 3
+Comarca Embu das Artes possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Adélia
+
+Número de processos na comarca: 1
+Comarca Santa Adélia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Rita do Passa Quatro
+
+Número de processos na comarca: 3
+Comarca Santa Rita do Passa Quatro possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Votorantim
+
+Número de processos na comarca: 1
+Comarca Votorantim possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Atibaia
+
+Número de processos na comarca: 5
+Comarca Atibaia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itupeva
+
+Número de processos na comarca: 1
+Comarca Itupeva possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Caieiras
+
+Número de processos na comarca: 1
+Comarca Caieiras possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Andradina
+
+Número de processos na comarca: 5
+Comarca Andradina possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Porto Ferreira
+
+Número de processos na comarca: 2
+Comarca Porto Ferreira possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Teodoro Sampaio
+
+Número de processos na comarca: 2
+Comarca Teodoro Sampaio possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Porto Feliz
+
+Número de processos na comarca: 2
+Comarca Porto Feliz possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Duartina
+
+Número de processos na comarca: 1
+Comarca Duartina possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Igarapava
+
+Número de processos na comarca: 2
+Comarca Igarapava possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Águas de Lindóia
+
+Número de processos na comarca: 2
+Comarca Águas de Lindóia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Louveira
+
+Número de processos na comarca: 3
+Comarca Louveira possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Bertioga
+
+Número de processos na comarca: 1
+Comarca Bertioga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Campos do Jordão
+
+Número de processos na comarca: 1
+Comarca Campos do Jordão possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pirassununga
+
+Número de processos na comarca: 3
+Comarca Pirassununga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jundiaí / SP
+
+Número de processos na comarca: 1
+Comarca Jundiaí / SP possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Valinhos
+
+Número de processos na comarca: 1
+Comarca Valinhos possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Batatais
+
+Número de processos na comarca: 2
+Comarca Batatais possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Vinhedo
+
+Número de processos na comarca: 2
+Comarca Vinhedo possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Maracaí
+
+Número de processos na comarca: 2
+Comarca Maracaí possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Quatá
+
+Número de processos na comarca: 2
+Comarca Quatá possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Taquarituba
+
+Número de processos na comarca: 4
+Comarca Taquarituba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Jales
+
+Número de processos na comarca: 2
+Comarca Jales possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itaporanga
+
+Número de processos na comarca: 1
+Comarca Itaporanga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Regente Feijó
+
+Número de processos na comarca: 1
+Comarca Regente Feijó possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Tanabi
+
+Número de processos na comarca: 3
+Comarca Tanabi possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca HortolÃ¢ndia
+
+Número de processos na comarca: 1
+Comarca HortolÃ¢ndia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Bragança Paulista
+
+Número de processos na comarca: 1
+Comarca Bragança Paulista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itaí
+
+Número de processos na comarca: 2
+Comarca Itaí possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Neves Paulista
+
+Número de processos na comarca: 1
+Comarca Neves Paulista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cerqueira César
+
+Número de processos na comarca: 2
+Comarca Cerqueira César possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Getulina
+
+Número de processos na comarca: 2
+Comarca Getulina possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Macatuba
+
+Número de processos na comarca: 1
+Comarca Macatuba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São João da Boa Vista
+
+Número de processos na comarca: 7
+Comarca São João da Boa Vista possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ibaté
+
+Número de processos na comarca: 1
+Comarca Ibaté possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Nhandeara
+
+Número de processos na comarca: 2
+Comarca Nhandeara possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cerqueira CÃ©sar
+
+Número de processos na comarca: 1
+Comarca Cerqueira CÃ©sar possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Buri
+
+Número de processos na comarca: 2
+Comarca Buri possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Palmeira D'Oeste
+
+Número de processos na comarca: 1
+Comarca Palmeira D'Oeste possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Luiz do Paraitinga
+
+Número de processos na comarca: 2
+Comarca São Luiz do Paraitinga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Aguaí
+
+Número de processos na comarca: 1
+Comarca Aguaí possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Praia Grande
+
+Número de processos na comarca: 3
+Comarca Praia Grande possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pinhalzinho
+
+Número de processos na comarca: 1
+Comarca Pinhalzinho possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Iguape
+
+Número de processos na comarca: 2
+Comarca Iguape possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Queluz
+
+Número de processos na comarca: 1
+Comarca Queluz possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Cubatão
+
+Número de processos na comarca: 1
+Comarca Cubatão possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Piedade
+
+Número de processos na comarca: 1
+Comarca Piedade possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Porangaba
+
+Número de processos na comarca: 1
+Comarca Porangaba possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Altinópolis
+
+Número de processos na comarca: 2
+Comarca Altinópolis possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Cruz das Palmeiras
+
+Número de processos na comarca: 1
+Comarca Santa Cruz das Palmeiras possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Caetano do Sul
+
+Número de processos na comarca: 1
+Comarca São Caetano do Sul possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Fé do Sul
+
+Número de processos na comarca: 3
+Comarca Santa Fé do Sul possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Juquiá
+
+Número de processos na comarca: 1
+Comarca Juquiá possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Pompeia
+
+Número de processos na comarca: 1
+Comarca Pompeia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca São Sebastião da Grama
+
+Número de processos na comarca: 1
+Comarca São Sebastião da Grama possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Paulo de Faria
+
+Número de processos na comarca: 1
+Comarca Paulo de Faria possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ibitinga
+
+Número de processos na comarca: 3
+Comarca Ibitinga possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Paulínia
+
+Número de processos na comarca: 1
+Comarca Paulínia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Guararapes
+
+Número de processos na comarca: 1
+Comarca Guararapes possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Rancharia
+
+Número de processos na comarca: 1
+Comarca Rancharia possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Iepê
+
+Número de processos na comarca: 1
+Comarca Iepê possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santo Anastácio
+
+Número de processos na comarca: 1
+Comarca Santo Anastácio possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Itapeva
+
+Número de processos na comarca: 1
+Comarca Itapeva possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Santa Isabel
+
+Número de processos na comarca: 1
+Comarca Santa Isabel possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Ribeirão Bonito
+
+Número de processos na comarca: 1
+Comarca Ribeirão Bonito possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Monte Alto
+
+Número de processos na comarca: 1
+Comarca Monte Alto possui menos de 15 processos, pulando
+
+
+>Iniciando build do modelo stan para encontrar normal da comarca Dracena
+
+Número de processos na comarca: 1
+Comarca Dracena possui menos de 15 processos, pulando
+
+
+>Resumo dos resultados:
+População:
+Mu: 1756.291906251328, Sigma: 1475.858871524165
+       comarca    N           mu        sigma   p_value  cohen_p
+0    SÃO PAULO  116  1422.388166  1450.091671  0.020271    0.004
+1   Piracicaba   16  1550.245395   970.451716  0.416220    0.298
+2     Sorocaba   15  3089.891911  2052.383827  0.024901    0.000
+3       Suzano   18  2382.937850  1212.780718  0.044204    0.040
+4  Santo André   15  2117.764455  1558.818663  0.386922    0.159
+
+
+>Plot das normais em um mesmo gráfico:
+
+
+>Gráficos salvos em figs/comarcas_normal.png
+### Relatório: Comparação das Distribuições de Processos por Comarca com a População Total
+
+Este relatório analisa se as distribuições dos tempos de processos judiciais em comarcas diferentes seguem a mesma distribuição da população total, utilizando dados de todos os tipos de crime para maior representatividade. Não foi possível fazer essa análise apenas com Furto-simples já que esse tipo de crime apresentava poucos exemplos por comarca. Dois métodos foram aplicados: o teste t frequentista (p-valor) e o método Cohen 4.2 (probabilidade de pertencimento).
+
+#### Conclusões
+- **Mesma Distribuição da População Total:** Piracicaba e Santo André não apresentam diferenças significativas em relação à população total, conforme indicado por ambos os métodos (p > 0.05 no t-test e probabilidades moderadas no Cohen 4.2).
+- **Distribuição Diferente da População Total:** São Paulo, Sorocaba e Suzano mostram distribuições distintas da população total, confirmadas pelo teste t (p < 0.05) e pelo Cohen 4.2 (probabilidades muito baixas).
+
+Os resultados destacam variações regionais nos tempos de tramitação, com gráficos foram salvos em `figs/comarcas_normal.png` para visualização.
